@@ -1,12 +1,17 @@
 # Planos de Governo 2026 — Lula x Flávio Bolsonaro
 ## Uma comparação ponto a ponto dos documentos oficiais, e por que o plano de Lula é muito melhor
 
+**Planos oficiais — acesso direto**
+
+- **Flávio Bolsonaro (PL)** — "Para o Brasil Vencer o Atraso" (76 págs., 09 eixos): [plano no site oficial da campanha](https://www.flaviobolsonaro.com.br/plano-de-governo) · [PDF oficial (site da campanha)](https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf) · [registro no TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro)
+- **Luiz Inácio Lula da Silva (PT)** — "Diretrizes para o Programa de Transformação do Brasil" (84 págs.): [propostas no site oficial da campanha](https://lula.com.br/propostas/) · [PDF integral do programa](https://static.poder360.com.br/uploads/2026/08/Programa-Governo-LULA-2026.pdf) · [registro no TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo)
+
 ### 1. Os documentos e o método
 
 Este documento compara, área por área, os dois planos de governo apresentados para a Presidência da República nas eleições de 2026:
 
-- **Flávio Bolsonaro (PL)** — "Para o Brasil Vencer o Atraso", 76 páginas, registrado no TSE em 13/08/2026. O texto foi lido na íntegra a partir do PDF oficial (metadados: "Diretrizes_Plano_de_Governo_Flavio_Bolsonaro_2027-2030_versaofinal", autor "PL", gerado em 13/08/2026; arquivo consultado: `FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf`).
-- **Luiz Inácio Lula da Silva (PT)** — "Diretrizes para o Programa de Transformação do Brasil: Um País Soberano, Democrático, Desenvolvido Sustentável e Criativo", 84 páginas (PDF gerado em 07/08/2026; arquivo consultado: `Programa-Governo-LULA-2026.pdf`).
+- **Flávio Bolsonaro (PL)** — "Para o Brasil Vencer o Atraso", 76 páginas, registrado no TSE em 13/08/2026. O texto foi lido na íntegra a partir do PDF oficial (metadados: "Diretrizes_Plano_de_Governo_Flavio_Bolsonaro_2027-2030_versaofinal", autor "PL", gerado em 13/08/2026; arquivo consultado: `FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf`). Acesso oficial: [site da campanha](https://www.flaviobolsonaro.com.br/plano-de-governo) · [PDF](https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf) · [TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro).
+- **Luiz Inácio Lula da Silva (PT)** — "Diretrizes para o Programa de Transformação do Brasil: Um País Soberano, Democrático, Desenvolvido Sustentável e Criativo", 84 páginas (PDF gerado em 07/08/2026; arquivo consultado: `Programa-Governo-LULA-2026.pdf`). Acesso oficial: [site da campanha](https://lula.com.br/propostas/) · [PDF integral](https://static.poder360.com.br/uploads/2026/08/Programa-Governo-LULA-2026.pdf) · [TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo).
 
 Todo o texto dos dois PDFs foi extraído e buscado por palavras-chave ("farmácia", "medicamento", "genérico", "fila", "inteligência artificial", "R$", "bilhões", "STF", "reeleição", etc.). **Todas as citações abaixo são literais dos documentos oficiais**, verificadas uma a uma. Onde o número ou a afirmação é alegação do próprio plano (e não foi verificada independentemente nesta análise), isso é marcado. As interpretações (o que uma estrutura jurídica produz, o que uma retórica estigmatiza) são identificadas como análise.
 
@@ -120,15 +125,19 @@ A ressalva honesta: o plano de Lula não é impecável — repete realizações 
 ### 15. Fontes e limites da verificação
 
 **Documentos oficiais (textos íntegros usados nesta análise; citações literais):**
-- Flávio Bolsonaro (PL) — "Para o Brasil Vencer o Atraso" (76 págs.). Registro no TSE em 13/08/2026; página de consulta: `tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro` (bloqueada para acesso automatizado nesta análise). PDF oficial consultado localmente: `FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf` (metadados: "Diretrizes_Plano_de_Governo_Flavio_Bolsonaro_2027-2030_versaofinal", autor "PL", 13/08/2026).
-- Lula (PT) — "Diretrizes para o Programa de Transformação do Brasil: Um País Soberano, Democrático, Desenvolvido Sustentável e Criativo" (84 págs.). PDF consultado localmente: `Programa-Governo-LULA-2026.pdf` (gerado em 07/08/2026).
+- Flávio Bolsonaro (PL) — "Para o Brasil Vencer o Atraso" (76 págs.). Registro no TSE em 13/08/2026: [página de consulta no TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro) (bloqueada para acesso automatizado nesta análise). PDF oficial do site da campanha: [https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf](https://www.flaviobolsonaro.com.br/plano-integracao/plano-de-governo.pdf) (metadados: "Diretrizes_Plano_de_Governo_Flavio_Bolsonaro_2027-2030_versaofinal", autor "PL", 13/08/2026; cópia do mesmo documento também hospedada pela [Agência Brasil](https://agenciabrasil.ebc.com.br/sites/default/files/atoms/files/diretrizesplanodegovernoflaviobolsonaro20272030versaofinal.pdf)).
+- Lula (PT) — "Diretrizes para o Programa de Transformação do Brasil: Um País Soberano, Democrático, Desenvolvido Sustentável e Criativo" (84 págs.). [Página de propostas no site oficial da campanha](https://lula.com.br/propostas/) e [registro no TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo) (TSE bloqueia acesso automatizado). PDF integral do programa (gerado em 07/08/2026): [https://static.poder360.com.br/uploads/2026/08/Programa-Governo-LULA-2026.pdf](https://static.poder360.com.br/uploads/2026/08/Programa-Governo-LULA-2026.pdf).
 
 **Imprensa (contexto do registro):**
-- Poder360 — "Leia a íntegra do plano de governo de Flávio Bolsonaro" (13/08/2026).
-- Último Segundo/IG — "Conheça o plano de governo de Flávio Bolsonaro" (13/08/2026).
-- Gazeta do Povo — "As principais propostas de Flávio Bolsonaro para a segurança" (2026; menção às 76 páginas).
-- UOL — "Propostas de Flávio Bolsonaro: veja principais pontos do plano de governo" (27/09/2026).
+- Poder360 — ["Leia a íntegra do plano de governo de Flávio Bolsonaro"](https://www.poder360.com.br/poder-flash/leia-a-integra-do-plano-de-governo-de-flavio-bolsonaro/) (13/08/2026).
+- Poder360 — ["Leia a íntegra do plano de governo de Lula"](https://www.poder360.com.br/poder-eleicoes-2026/pt-divulga-programa-de-governo-de-lula-leia-a-integra/).
+- Último Segundo/IG — ["Conheça o plano de governo de Flávio Bolsonaro"](https://ultimosegundo.ig.com.br/2026-08-13/conheca-o-plano-de-governo-de-flavio-bolsonaro.html) (13/08/2026).
+- UOL — ["Propostas de Flávio Bolsonaro: veja principais pontos do plano de governo"](https://noticias.uol.com.br/eleicoes/2026/09/27/propostas-de-flavio-bolsonaro-veja-principais-pontos-do-plano-de-governo.ghtml) (27/09/2026).
+- UOL — ["Propostas de Lula: veja os principais pontos do plano de governo"](https://noticias.uol.com.br/eleicoes/2026/09/27/propostas-de-lula-veja-os-principais-pontos-do-plano-de-governo.ghtml) (27/09/2026).
+- Gazeta do Povo — "As principais propostas de Flávio Bolsonaro para a segurança" (2026; menção às 76 páginas; link exato não localizado nesta verificação).
 
 **Alegações dos planos, não verificadas independentemente nesta análise:** fila do INSS de 3 milhões (início de 2026); "em 2022, nós entregamos essa fila em queda"; +13 p.p. / −4 p.p. da dívida bruta/PIB; "30 aumentos de tributos"; "maior taxa de juro real do mundo"; "7º do mundo em maturidade de governo digital (Banco Mundial)"; "extrema pobreza caiu para a menor marca em 2020"; "maior programa gratuito de capacitação feminina da América Latina" (Flávio); recordes de investimento em infraestrutura (R$ 280 bi/R$ 300 bi), "75% das escolas conectadas" e avanço de cobertura vacinal segundo a UNICEF (Lula).
 
 **Análises e interpretações (destacadas no texto):** efeitos constitucionais do pacote anti-STF ("cegueira" para parlamentares); leitura do "Ganha, Ganha" como hierarquização por comportamento; enquadramento da retórica ("estigmatização"); estimativa do R$ 900 bi em % do PIB. Nenhuma informação externa foi adicionada sem esse destaque.
+
+**Links das fontes:** verificados em 06/10/2026 — o PDF oficial de Flávio (no site da campanha, 76 págs.) e o PDF integral do programa de Lula (publicado pelo PT, 84 págs.), além das páginas de imprensa, respondem 200; o site de Lula (lula.com.br) não expõe o PDF diretamente, apenas a página de propostas. O TSE e o UOL bloqueiam acesso automatizado (HTTP 403 para bots), mas as páginas correspondentes existem e estão indexadas em buscadores.
