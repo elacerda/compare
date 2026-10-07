@@ -61,6 +61,36 @@ Dados: arquivos oficiais do TSE (resultados por seção), em
 8. **Limitação de vinculação.** Seções são renumeradas a cada eleição; flips só
    são calculados para a mesma `NR_LOCAL_VOTACAO` + número de seção.
 
+## Resultados — núcleo (5 locais: Rosinha Campos/Abraão, Almirante Carvalhal/Saco da Lama, Pres. Roosevelt, Igreja N. Sra. do Carmo, CEFID/UDESC)
+
+| Eleição | Turno | Esquerda (L) | Direita (R) | Outros | Total | esq (L+R)/T | Margem (L−R)/(L+R) |
+|---------|-------|-------------:|------------:|-------:|------:|------------:|-------------------:|
+| 2018 | 1º | 1.748 | 8.138 | 5.722 | 15.608 | 63,3% | **−64,6 pp** |
+| 2018 | 2º | 4.633 | 9.531 | 1.270 | 15.434 | 91,8% | **−34,6 pp** |
+| 2022 | 1º | 6.201 | 7.847 | 2.518 | 16.566 | 84,8% | **−11,7 pp** |
+| 2022 | 2º | 6.870 | 9.057 | 626 | 16.553 | 96,2% | **−13,7 pp** |
+| 2026 | 1º | 5.752 | 7.713 | 2.049 | 15.514 | 86,8% | **−14,6 pp** |
+
+Nota: 2018: Haddad × Bolsonaro; 2022: Lula × Bolsonaro; 2026: Lula × Flávio
+Bolsonaro, apenas 1º turno (04/10/2026). A composição do núcleo muda
+ligeiramente entre eleições (seções renumeradas): 50 seções em 2018, 51 em
+2022 e 52 em 2026 (novas seções na Rosinha Campos/Abraão).
+
+### Sensibilidade — região (núcleo + 6 locais de fronteira/adjacência)
+
+| Eleição | Turno | L | R | Outros | Total | esq (L+R)/T | Margem |
+|---------|-------|---:|---:|-------:|------:|------------:|-------:|
+| 2018 | 1º | 2.514 | 11.307 | 7.988 | 21.809 | 63,4% | −63,6 pp |
+| 2018 | 2º | 6.513 | 13.302 | 1.811 | 21.626 | 91,6% | −34,3 pp |
+| 2022 | 1º | 9.177 | 11.270 | 3.526 | 23.973 | 85,3% | −10,2 pp |
+| 2022 | 2º | 10.120 | 12.926 | 885 | 23.931 | 96,3% | −12,2 pp |
+| 2026 | 1º | 9.649 | 12.459 | 3.388 | 25.496 | 86,7% | −12,7 pp |
+
+Locais somados no conjunto ampliado: IFSC Continente (2038), IFSC Continente
+II (2429), EEB Edith Gama Ramos (2160), FUCAS (2461) — fronteiras oeste;
+EEB Severo Honorato da Costa (1384) e EBM Costa de Dentro (1406) —
+Pântano do Sul, adjacente a Abraão. 72/76/88 seções em 2018/2022/2026.
+
 ## Síntese dos números (ver `detalhe_por_secao.csv`)
 
 - NÚCLEO (52 seções, 18.835 aptos em 2026): 2018 1T −64,6 pp → 2018 2T −34,6 pp →
