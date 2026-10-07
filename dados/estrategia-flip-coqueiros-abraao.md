@@ -10,12 +10,15 @@ dado a Flávio Bolsonaro, nas seções dos distritos de Coqueiros e Abraão
 - Lula (PT) — "Diretrizes para o Programa de Transformação do Brasil", 84 págs.: `../Programa-Governo-LULA-2026.pdf`
 - Dados de votação por seção (TSE): `eleicoes-{2018,2022,2026}/` e metodologia em `analise_coqueiros_abraao/`
 
-**Fato central da verificação:** o plano de Flávio contém **zero menções** a:
-"condomínio", "apartamento", "imobiliário", "plano de saúde", "salário mínimo",
-"favela", "periferia", "delivery". A palavra "universidade" aparece uma única vez
-(p. 36, em referência genérica). Cada lacuna é verificável página a página — e é
-incoerência quando contrastada com o que o plano promete a esse eleitor em
-outros capítulos (casa própria p. 47, crédito p. 32-33, saúde p. 21-39).
+**Fato central da verificação:** em 76 páginas, o plano de Flávio não fala da
+vida de quem mora em Coqueiros e Abraão. As palavras "condomínio",
+"apartamento", "imobiliário", "plano de saúde", "salário mínimo", "favela",
+"periferia" e "delivery" **não aparecem nenhuma vez** — cada lacuna é
+conferível página a página. "Universidade" aparece cinco vezes no documento
+(pp. 36, 37, 40 e 57), sempre em referência genérica ao ensino superior. E as
+ausências viram incoerência quando o mesmo plano promete casa
+própria (p. 47), crédito (p. 32-33) e saúde (p. 21-39) justamente a esse
+eleitor.
 
 ---
 
@@ -40,16 +43,17 @@ outros capítulos (casa própria p. 47, crédito p. 32-33, saúde p. 21-39).
 | 2026 | 1º | 9.649 × 12.459 | −12,7 pp | 43,6% |
 
 Leitura honesta do território:
-- Coqueiros/Abraão é **mais conservador que Rio Vermelho/Ingleses e nunca virou
-  para a esquerda**: em 2022 o 2º turno foi *pior* que o 1º (−11,7 → −13,7 pp) —
-  aqui não houve "efeito Lula" de 2º turno, ao contrário do Muquém.
-- O swing de 2018→2022 foi forte e geral (+6 a +15,5 pp de share de L em todos os
-  locais), e 2022→2026 a esquerda **estabilizou, sem perder terreno relevante**
-  (−0,2 a −2,5 pp) — com exceção do IFSC Continente, que seguiu subindo (+7,2 pp).
-- A esquerda **perdeu 1.118 votos de 2022→2026 no núcleo** (6.870 → 5.752): o
-  território está estável-direita, e a conversão tem que ser construída seção por
-  seção. Não existe "o bairro votou no Lula" — existe um conjunto de seções
-  competitivas e bolsões já positivos.
+- Coqueiros/Abraão é um território de direita estável, mais conservador que
+  Rio Vermelho/Ingleses — e nunca virou para a esquerda. Em 2022, o 2º turno
+  saiu até pior que o 1º: aqui não houve o "efeito Lula" de 2º turno que o
+  Muquém viu.
+- A grande migração da esquerda aconteceu entre 2018 e 2022, quando ela ganhou
+  terreno em todos os locais do núcleo. Desde 2022 ela se manteve firme, sem
+  perder espaço de fato — e no IFSC Continente até seguiu crescendo.
+- Ainda assim, de 2022 para 2026 a esquerda perdeu pouco mais de 1.100 votos
+  no núcleo. A lição prática é simples: não existe "o bairro votou no Lula" —
+  existe um conjunto de seções disputadas e bolsões que já são positivos, e é
+  seção por seção que a conversão vai ter que ser construída.
 
 **Por local (2026 1º turno):** 2097 Rosinha Campos/**Abraão** −8,0 pp (o mais
 competitivo do núcleo; 8 das 16 seções próximas) · 2100 Almirante Carvalhal/Saco
@@ -127,8 +131,8 @@ Empresa (p. 45), Ganha-Ganha (p. 46), CAIXA "Banco da Prosperidade" (p. 46),
 "Remédio à domicílio" (p. 38), voucher educacional (p. 36), Brasil sem Fila e
 Brasil por Elas (índice, p. 3-4).
 **Uso:** "o plano que promete cortar o Estado está criando uma fila de programas
-novos do Estado. A conta desses programas é o mesmo corte que ele promete — quem
-paga é quem recebe."
+novos do Estado — e a conta desses programas é o mesmo corte que ele promete. No
+fim, quem paga é quem deveria receber."
 
 ### I.2 Juros e financiamento: tudo "quando as contas se ajeitarem", sem um único número
 "Juros menores não se decretam: conquistam-se com contas em ordem" (p. 32);
@@ -139,7 +143,7 @@ menor taxa de juros possível no financiamento" (p. 47) — não tem custo, font
 recursos nem prazo. O único corte quantificado de todo o plano é "no mínimo 10
 ministérios" (p. 69).
 **Contraponto Lula:** o plano nomeia resultado e número: "pela primeira vez na
-história, o crédito imobiliário ultrapassou a barreira dos 10% do PIB" (p. 45),
+história, o crédito imobiliário ultrapassasse a barreira dos 10% do PIB" (p. 45),
 "criando uma nova faixa de renda no programa [MCMV] para atingir a classe média,
 que estava ameaçada por insuficiência de recursos da poupança para seu
 financiamento" (p. 45), meta de 3 milhões de moradias (p. 45). E juros: "vamos
@@ -155,10 +159,10 @@ não cai por promessa, cai por contrato."
 O plano diagnostica: "o custo de um trabalhador formal chega a cerca de duas
 vezes o salário que ele leva para casa" (p. 43) — ou seja, reconhece que o custo
 extra do registro são os direitos — e aí promete "reduzir gradualmente o custo do
-trabalho, sem retirar direitos" (p. 43) e "contrato para os 18 a 24 anos [...]
-com menor custo na folha" (p. 44). A única leitura possível é cortar a
-contribuição — o que esvazia o FGTS e a aposentadoria do próprio trabalhador
-que ele promete incluir.
+trabalho, sem retirar direitos" (p. 43) e "contrato de trabalho para os 18 a 24 anos [...
+com menor custo na folha" (pp. 43-44). Na prática, não existe forma de baratear a
+folha sem mexer na contribuição — e é disso que saem o FGTS, a multa e a
+aposentadoria do próprio trabalhador que o plano promete incluir.
 **Contraponto Lula:** "aprimorar a legislação trabalhista, alterando regras que
 induzem à precarização das condições de trabalho [...] e retomando assistência
 sindical nas homologações" (p. 75) e "assegurar o fim da escala 6x1 e a redução
@@ -169,14 +173,14 @@ Baratear o registro é tirar do seu FGTS, da sua multa e da sua aposentadoria.
 Você votou pra trabalhar com garantia, não pra trabalhar mais barato."
 
 ### I.4 "Trabalhador em primeiro lugar, não o sindicato" que depois pede ao sindicato
-Ataque à "República Sindical" e aos "sindicatos de servidores" (p. 44-45),
-"o princípio da unicidade sindical garante monopólios a esses representantes"
+O plano ataca a "República Sindical" e os "sindicatos de servidores" (p. 44-45)
+— "o princípio da unicidade sindical garante monopólios a esses representantes"
 (p. 44) — no mesmo capítulo em que defende "o negociado sobre o legislado, ou
 seja, permitir que trabalhador e empresa combinem diretamente as condições de
-trabalho" (p. 44), que é instrumento sindical. E: "vamos blindar os fundos de
-pensão das estatais da indicação política, porque a aposentadoria do
-trabalhador não pode virar cofre de projeto de poder" (p. 69) — no mesmo plano
-que corta cargos e encolhe o Estado.
+trabalho" (p. 44), que é justamente o instrumento pelo qual o sindicato
+negocia. E promete "blindar os fundos de pensão das estatais da indicação
+política, porque a aposentadoria do trabalhador não pode virar cofre de projeto
+de poder" (p. 70) — no mesmo plano que corta cargos e encolhe o Estado.
 **Contraponto Lula:** "a retomada da política de valorização e diálogo com
 servidores. Vamos aprofundar este processo, a partir da Mesa Nacional de
 Negociação Permanente, que foi reaberta em nosso mandato" (p. 16) e
@@ -222,8 +226,8 @@ dinheiro. O do Lula tem 233 km de trilho, 296 km de corredor de ônibus e
 
 ### I.7 O eleitor que não está no plano (lacunas verificadas)
 "condomínio": 0 menções. "apartamento": 0. "imobiliário": 0 (o plano de Lula
-cita 5 vezes, p. 45). "plano de saúde": 0. "salário mínimo": 0. "periferia": 0.
-"delivery": 0. "universidade": 1 (p. 36, genérica: "transferir a governança
+cita 5 vezes: pp. 17, 18 e 45). "plano de saúde": 0. "salário mínimo": 0. "periferia": 0.
+"delivery": 0. "universidade": 5 vezes, sempre genérica (pp. 36, 37, 40 e 57) — e a mudança estrutural está no p. 36: "transferir a governança
 [do ensino superior] para o Ministério da Ciência, Tecnologia e Inovações,
 unificando ciência e ensino superior sob o mesmo teto. A CAPES e o CNPq
 passarão a priorizar o impacto produtivo" (p. 36) — o capítulo que mais atinge

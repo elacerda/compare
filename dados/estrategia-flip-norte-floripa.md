@@ -8,7 +8,14 @@
 - Lula (PT) — "Diretrizes para o Programa de Transformação do Brasil", 84 págs., PDF: `../Programa-Governo-LULA-2026.pdf`
 - Dados de votação por seção (TSE): `eleicoes-{2018,2022,2026}/` e análise existente em `analise_riverio_v/`
 
-**Fato central da verificação:** o plano de Flávio contém **zero menções** a: "artesanato", "pesca" (qualquer modalidade), "salário mínimo", "favela", "periferia", "urbanização", "imobiliário", "economia criativa", "MEI"/microempreendedor individual. São lacunas verificáveis página por página — e cada uma delas é uma incoerência quando contrastada com o que o plano promete a esse eleitor em outros capítulos.
+**Fato central da verificação:** em 76 páginas, o plano de Flávio não fala da
+vida do norte da Ilha. As palavras "pesca", "artesanato", "salário mínimo",
+"favela", "periferia", "imobiliário", "economia criativa" e
+"MEI" (microempreendedor individual) **não aparecem nenhuma vez** — cada lacuna
+é verificável página por página. A única "urbanização" que o plano menciona é a
+de "áreas degradadas" (p. 47), no capítulo de segurança. E cada ausência vira
+incoerência quando o mesmo plano promete coisas a esse eleitor em outros
+capítulos.
 
 ---
 
@@ -22,7 +29,11 @@
 | 2022 | 2º | 1.406 × 1.387 | +0,7 pp |
 | 2026 | 1º | 2.217 × 2.611 | −8,2 pp |
 
-- O bairro é **swing real**: 55 pp de margem entre 2018 e 2022; em 2022 virou para a esquerda de fato (6 de 9 seções), em 2026 a direita recuperou a maioria (14 de 20 seções do núcleo) — mas com 1/4 da intensidade de 2018.
+- O bairro é swing de verdade: em 2018 perdia por mais de 50 pontos, em 2022
+  virou para a esquerda de fato (6 de 9 seções) e em 2026 a direita recuperou a
+  maioria das seções — mas com uma fração da vantagem que tinha em 2018. É
+  território em que o voto se constrói e se perde, e o 2º turno é a chance de
+  virá-lo de volta.
 
 **Ingleses (núcleo: 7 escolas, 93 seções, 34.882 aptos em 2026)** — mapeamento completo em `analise_ingleses/`:
 
@@ -67,7 +78,9 @@ O eleitor desse território não é "o bolsonarista de TV". É gente ocupada, qu
 
 ### I.1 "Estado menor" que cria dez programas
 O plano vende enxugamento — "corte de no mínimo 10 ministérios, a redução de cargos comissionados" (p. 69), "o papel do Estado não é substituir esse esforço, nem sufocá-lo" (p. 42) — e no mesmo documento cria: Minha Primeira Empresa (p. 45), Ganha-Ganha (p. 46), Brasil sem Fila, Brasil por Elas, Tesouraço, "Remédio à domicílio" (p. 38), voucher-creche e voucher educacional (índice), e dá "nova missão" à CAIXA (p. 46).
-**Uso:** "o plano que promete cortar o Estado está criando um monte de programa novo do Estado — quem vai pagar a conta desses programas é o mesmo corte de imposto que ele promete."
+**Uso:** "o plano que promete cortar o Estado está criando um monte de programa
+novo do Estado — e a conta desses programas é o mesmo corte que ele promete. No
+fim, quem paga é quem deveria receber."
 
 ### I.2 Juros: tudo depende de "contas em ordem" — que ninguém quantifica
 "Juros menores não se decretam: conquistam-se com contas em ordem" (p. 32); a promessa central de crédito (CAIXA, "a menor taxa de juros possível" na casa própria, p. 47) depende de um futuro fiscal em que o único corte quantificado do plano inteiro é "no mínimo 10 ministérios" (p. 69). Nenhum programa social novo tem custo apresentado.
@@ -75,26 +88,39 @@ O plano vende enxugamento — "corte de no mínimo 10 ministérios, a redução 
 **Uso:** "ele promete juros menores 'quando as contas se ajeitarem' — mas no plano inteiro só há um número de corte: 10 ministérios. A conta do seu empréstimo não é ajeitada por promessas, é ajeitada por dinheiro apresentado."
 
 ### I.3 "Reduzir o custo do trabalho sem retirar direitos" — a frase que se contradi
-O próprio plano diagnostica: "o custo de um trabalhador formal chega a cerca de duas vezes o salário que ele leva para casa" (p. 43) — ou seja, reconhece que o custo extra do registro são os direitos (FGTS, 13º, INSS). Aí promete "reduzir gradualmente o custo do trabalho, sem retirar direitos" (p. 43) e um "contrato para jovens com menor custo na folha" (p. 44). A única leitura possível é reduzir a contribuição — o que esvazia a previdência do próprio informal que ele promete proteger ("efetiva proteção social e previdenciária", p. 45).
+O próprio plano diagnostica: "o custo de um trabalhador formal chega a cerca de
+duas vezes o salário que ele leva para casa" (p. 43) — e o custo extra é
+justamente o dos direitos (FGTS, 13º, INSS). A solução que ele oferece é
+"reduzir gradualmente o custo do trabalho, sem retirar direitos" (p. 43) e um
+"contrato para jovens com menor custo na folha" (p. 44). Na prática, não existe
+forma de baratear a folha sem mexer na contribuição — e é disso que saem o FGTS
+e a aposentadoria do próprio trabalhador que o plano promete proteger ("efetiva
+proteção social e previdenciária", p. 45).
 **Contraponto Lula:** "aprimorar a legislação trabalhista, alterando regras que induzem à precarização" + "fortalecer a negociação coletiva" + políticas para autônomos "com cobertura da proteção social, especialmente em relação à previdência, à proteção diante de acidentes" (p. 76).
 **Uso (pedreiro/construtor):** "a planilha dele diz que o trabalhador registrado custa o dobro do salário — e a solução dele é baratear o registro. Baratear o registro é tirar do seu FGTS e da sua aposentadoria. É o contrário do que você votou em 2018: você votou pra trabalhar com garantia, não pra trabalhar mais barato."
 
 ### I.4 "Trabalhador em primeiro lugar, não o sindicato" que defende o negociado
-Ataque à "República Sindical" e aos "sindicatos de servidores" (p. 44-45) no mesmo parágrafo em que defende "o negociado sobre o legislado" (p. 44) — que é justamente o instrumento sindical. E "jornada flexível que caiba na vida de mães" (p. 44) atropela a regulação de jornada.
+O plano ataca a "República Sindical" e os "sindicatos de servidores" (p. 44-45)
+no mesmo parágrafo em que defende "o negociado sobre o legislado" (p. 44) — que
+é justamente o instrumento pelo qual o sindicato negocia. E a "jornada flexível
+que caiba na vida de mães" (p. 44) abre mão da proteção mínima da jornada.
 **Uso (servidor/professor):** "o plano fala mal do sindicato e depois pede pro sindicato negociar. Se o sindicato é a 'república sindical' que atrapalha, quem negocia a sua carreira é? E 'corte de 10 ministérios e cargos comissionados' (p. 69) é a mesma reforma administrativa que já veio com a ideia de encolher o funcionalismo."
 
 ### I.5 Cultura "sem entretenimento comercial" que mantém a lei de incentivo
-"distinção entre cultura e entretenimento comercial" (p. 41) — no mesmo parágrafo em que promete "aperfeiçoar as leis de incentivo" (p. 41), cujo funcionamento é justamente o patrocínio comercial. E o plano inteiro trata a cultura como patrimônio a preservar (centros históricos, acervos), sem nenhuma linha sobre a economia de quem vive de cultura: zero "economia criativa", zero empreendedorismo cultural, zero crédito, zero menção a artesão ou "mestres" de cultura popular.
-**Contraponto Lula:** "mestras e mestres das culturas populares e tradicionais terão políticas de salvaguarda e valorização, com regras claras de direito autoral sobre os saberes" (p. 41); "ampliando o acesso a crédito para iniciativas de economia criativa" + cursos técnicos de qualificação artística (p. 42); "a cultura, a economia criativa e o esporte como forças estratégicas do desenvolvimento nacional, capazes de gerar trabalho, renda" (p. 43).
+"distinção entre cultura e entretenimento comercial" (p. 41) — no mesmo parágrafo em que promete "aperfeiçoaremos as leis de incentivo" (p. 41), cujo funcionamento é justamente o patrocínio comercial. E o plano inteiro trata a cultura como patrimônio a preservar (centros históricos, acervos), sem nenhuma linha sobre a economia de quem vive de cultura: zero "economia criativa", zero empreendedorismo cultural, zero crédito, zero menção a artesão ou "mestres" de cultura popular.
+**Contraponto Lula:** "mestras e mestres das culturas populares e tradicionais terão políticas de salvaguarda e valorização, com regras claras de direito autoral sobre os saberes" (p. 41); "ampliando o acesso a crédito para iniciativas de economia criativa" + cursos técnicos de qualificação artística (p. 42); "a cultura, a economia criativa e o esporte como forças estratégicas do desenvolvimento nacional, capazes de gerar trabalho, renda" (p. 44).
 **Uso (artesão/cultura):** "o plano fala de cultura como coisa de museu e centro histórico — 'sem entretenimento comercial' — mas quem vive de cultura, como você, é comércio. No plano dele a sua atividade não existe; no plano do Lula o seu ofício é nomeado: 'mestres das culturas populares' com salvaguarda e direito autoral sobre o saber."
 
 ### I.6 Segurança que só enxerga a favela pela janela da facção
-"Auxílio das famílias das vítimas, não dos bandidos" (p. 15); "retomar as áreas hoje sob domínio de facções" (p. 47). O plano **não contém as palavras "favela", "periferia" nem "urbanização"** — o morador de encosta só aparece como território de crime e como alvo de "urbanização de áreas degradadas" via "parcerias público-privadas" (p. 47), sem um centavo quantificado.
+"Auxílio das famílias das vítimas, não dos bandidos" (p. 15); "retomar as áreas hoje sob domínio de facções" (p. 47). O plano **não contém as palavras "favela" nem "periferia"** — o morador de encosta só aparece como território de crime e como alvo de "urbanização de áreas degradadas" (a única "urbanização" do documento, p. 47) via "parcerias público-privadas", sem um centavo quantificado.
 **Contraponto Lula:** "repressão qualificada... e participação ativa das comunidades locais, priorizaremos investimentos continuados na urbanização de favelas e periferias, na requalificação de espaços públicos e na ampliação do acesso a serviços públicos essenciais **para estimular atividades econômicas lícitas e reduzir mercados explorados pelo crime organizado**" (p. 28, com R$ 10 bi do FIIS); Periferia Viva: "85 obras retomadas + 59 selecionadas" com regularização fundiária (p. 45-46); saneamento "priorizando periferias historicamente negligenciadas" (p. 46); R$ 25 bi em "contenção de encostas e drenagem urbana sustentável" (p. 47).
 **Uso (encosta/favela):** "o plano dele fala da sua rua como se ela fosse problema de bandido — e de fato a palavra 'favela' não aparece nenhuma vez no documento. O plano do Lula trata a sua rua como cidade: urbanização, regularização de escritura, esgoto, contenção de encosta. E o argumento dele mesmo prova: ele sabe que favela sem estado vira facção — a diferença é que ele não propõe o estado."
 
 ### I.7 Turismo "que rende" sem a economia de quem recebe o turista
-"Turismo: uma vocação que rende" (p. 59): a receita é aeroporto, ferrovia, Trem do Nordeste e segurança ("ninguém visita, investe ou volta a um lugar onde não se sente protegido", p. 60). Zero mecanismo para o pequeno operador: sem crédito, sem capacitação, sem fomento à comercialização, sem menção à economia criativa local. A promessa "que o turismo gere renda e emprego, sobretudo nas cidades do interior" (p. 60) não tem engenho no documento.
+"Turismo: uma vocação que rende" (p. 59): a receita é aeroporto, ferrovia, Trem do Nordeste e segurança ("ninguém visita, investe ou volta a um lugar onde não se sente protegido", p. 60). Para quem vive do turista no dia a dia, não há mecanismo: sem crédito, sem
+capacitação, sem fomento à comercialização, sem menção à economia criativa
+local. A promessa "que o turismo gere renda e emprego, sobretudo nas cidades do
+interior" (p. 60) não vem acompanhada de nenhum meio no documento.
 **Contraponto Lula:** "destinos turísticos assentados na riqueza natural e diversidade cultural... estimulando a colaboração entre setores criativos (artes, música, gastronomia) e o turismo, criando experiências diferenciadas" + roteiros de "gastronomia, arte, cultura e ecoturismo" (p. 57); crédito para o pequeno negócio (Pronampe 1,6 mi operações, Acredita, Procred 360, p. 57).
 **Uso (pousada/botequin/bote):** "o plano dele de turismo é pista de pouso e trem — e 'segurança'. A pousada, o bote e o restaurante que recebem o turista de Ingleses não estão no documento. O plano do Lula liga turismo a arte, música e gastronomia — ou seja, liga o turista à sua mesa."
 
@@ -103,22 +129,28 @@ Zero ocorrências de "pesca" no plano de 76 páginas — não artesanal, não in
 **Contraponto Lula:** "manteremos nosso compromisso com o fomento à pesca artesanal e à aquicultura familiar, com a implementação das diretrizes e prioridades estabelecidas no Plano Nacional da Pesca Artesanal (PNPA). Fortaleceremos a promoção da proteção dos territórios pesqueiros, da sociobiodiversidade e dos modos de vida das comunidades das águas" (p. 61).
 **Uso (pescador de Rio Vermelho/Ingleses):** "leia o plano inteiro: a palavra 'pesca' não aparece uma única vez. Pra quem vive do mar no norte da Ilha, plano que não fala de pesca é plano que não fala com você. O do Lula tem capítulo: Plano Nacional da Pesca Artesanal, território pesqueiro, modo de vida das comunidades das águas."
 
-### I.9 "O programa social é o começo da caminhada" × "a ajuda não vai ser tirada. Ponto."
+### I.9 "O programa social é o começo da caminhada" × "não vai ter essa ajuda tirada. Ponto."
 "vamos manter os programas sociais existentes... Quem depende hoje da ajuda do Estado para pôr comida na mesa não vai ter essa ajuda tirada. Ponto." (p. 42) — mas no parágrafo seguinte o beneficiário vira "armadilha da pobreza" a superar, com "prioridade" em sair do programa (p. 43). A mensagem para o eleitor que depende do benefício: o Estado que ele vai receber é o da trilha de saída, não o do direito.
-**Contraponto Lula:** Bolsa Família + valorização do "salário mínimo como meio estratégico de distribuição de renda" (p. 78) + PAA + 45% da alimentação escolar da agricultura familiar (p. 59) — o benefício é tratado como política permanente, com governança, não como "escada de saída".
+**Contraponto Lula:** Bolsa Família + valorização do "salário mínimo como meio estratégico de distribuição de renda" (p. 74) + PAA + 45% da alimentação escolar da agricultura familiar (p. 59) — o benefício é tratado como política permanente, com governança, não como "escada de saída".
 **Uso (quem recebe benefício / mulher de família):** "o plano dele começa prometer que a ajuda não sai — 'ponto' — e no parágrafo seguinte a gente é a 'armadilha da pobreza' que o Estado tem que tirar dali. Isso é o que a gente vai receber: a trilha de saída, ou o benefício?"
 
 ### I.10 Ganha-Ganha: "os dados são do cidadão, não do Estado" — um score estatal do comportamento
-"De adesão voluntária, ele permite que atitudes como concluir um curso, formalizar um negócio, conseguir um emprego ou manter as contas em dia formem um histórico positivo que trabalha a favor do cidadão: acesso a crédito, juros menores e cashback" (p. 46) — e a frase-chave: "Os dados são do cidadão e ficam a serviço dele, não do Estado" (p. 46). O programa é, por definição, um sistema estatal que pontua o comportamento do cidadão para decidir juros e crédito.
-**Uso:** "o 'Ganha-Ganha' é o governo anotando o que você fez no mês pra decidir se te empresta e a quanto. Aí ele diz que 'os dados são seus' — mas quem monta o score é ele. E o cashback pressupõe cartão e conta — a mesma gente que o plano chama de 'invisível ao sistema financeiro'."
+"De adesão voluntária, ele permite que atitudes como concluir um curso de qualificação, formalizar um negócio, conseguir um emprego ou manter as contas em dia formem um histórico positivo que trabalha a favor do cidadão: acesso a crédito, juros menores e cashback" (p. 46) — e a frase-chave: "Os dados são do cidadão e ficam a serviço dele, não do Estado" (p. 46). O programa é, por definição, um sistema estatal que pontua o comportamento do cidadão para decidir juros e crédito.
+**Uso:** "o 'Ganha-Ganha' é o governo anotando o que você fez no mês pra decidir
+se te empresta e a quanto. Aí ele diz que 'os dados são seus' — mas quem monta o
+score é ele. E o cashback exige cartão e conta bancária — justamente o que falta
+para quem o próprio plano chama de 'invisível ao sistema financeiro'."
 
 ### I.11 Saneamento: crédito por lei de 2020 + concessões
-"O maior avanço do país nessa área tem nome e sobrenome: foi o Marco Legal do Saneamento, sancionado pelo governo Bolsonaro em 2020" (p. 47) — a meta de 100% até 2033 é da própria lei, não é promessa nova do plano; a proposta é "acelerar as concessões e parcerias" (p. 47). Para a encosta de Ingleses, onde a obra de esgoto/encosta é o problema do dia a dia: o plano oferece a meta já existente (2033 — daqui a 7 anos) via concessão privada; o plano de Lula entrega números já executados: "R$ 23,3 bilhões para novas obras de abastecimento de água, esgotamento sanitário e gestão de resíduos sólidos, além de R$ 3,5 bilhões para retomada de obras inacabadas... priorizar periferias historicamente negligenciadas" (p. 46).
+"O maior avanço do país nessa área tem nome e sobrenome: foi o Marco Legal do Saneamento, sancionado pelo governo Bolsonaro em 2020" (p. 47) — a meta de 100% até 2033 é da própria lei, não é promessa nova do plano; a proposta é "acelerar as concessões e parcerias" (p. 47). Para a encosta de Ingleses, onde a obra de esgoto/encosta é o problema do dia a dia: o plano oferece a meta já existente (2033 — daqui a 7 anos) via concessão privada; o plano de Lula entrega números já executados: "R$ 23,3 bilhões para novas obras de abastecimento de água, esgotamento sanitário e gestão de resíduos sólidos, além de R$ 3,5 bilhões para retomada e conclusão de obras inacabadas... priorizar periferias historicamente negligenciadas" (p. 46).
 **Uso (encosta):** "ele fala do saneamento como meta de 2033 que ele mesmo já tinha assinado em 2020 — e quer fazer por concessão privada. O outro plano já executou R$ 23,3 bilhões e disse em que ordem: periferia primeiro."
 
 ### I.12 O plano não diz o nome do salário mínimo
-Zero menções a "salário mínimo" nas 76 páginas — a variável que define o custo do trabalho do construtor, o piso da doméstica, a renda mínima da informalidade e o parâmetro do aposentado. É a variável central do bolso do eleitor do norte da Ilha e o plano a ignora.
-**Contraponto Lula:** "salário mínimo como meio estratégico de distribuição de renda, combate à pobreza" (p. 78) + política de valorização (p. 18).
+"Salário mínimo" não aparece nenhuma vez nas 76 páginas — e é o número que
+define o custo do trabalho do construtor, o piso da doméstica, a renda mínima de
+quem vive de bico e o parâmetro do aposentado. É a coisa central do bolso do
+eleitor do norte da Ilha, e o plano a ignora.
+**Contraponto Lula:** "salário mínimo como meio estratégico de distribuição de renda, combate à pobreza" (p. 74) + política de valorização (p. 18).
 **Uso:** "num plano de 76 páginas sobre 'vencer o atraso' e o 'Brasil mais barato', a palavra 'salário mínimo' não aparece. A coisa que define seu custo de vida não está no plano — como é que ele vai cuidar dela?"
 
 ---
@@ -166,6 +198,6 @@ Zero menções a "salário mínimo" nas 76 páginas — a variável que define o
 ## 7. Limites desta análise
 
 - Citações verificadas nos PDFs oficiais (`../FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf`, `../Programa-Governo-LULA-2026.pdf`); páginas conforme numeração do PDF. A qualificação de "incoerência" é interpretação estratégica do documento, não juízo sobre a boa-fé do candidato.
-- Dados de seção do Rio Vermelho: `analise_riverio_v/detalhe_por_secao.csv` (metodologia no README da pasta). **Falta o mapeamento equivalente das seções de Ingleses** — é o próximo passo para fechar o alvo.
+- Dados de seção: `analise_riverio_v/detalhe_por_secao.csv` (Rio Vermelho) e `analise_ingleses/detalhe_por_secao.csv` (Ingleses) — metodologia nos READMEs das pastas.
 - O 1º turno de 2026 tem Ruem/Santos, Cury e Caiado puxando à direita (~9% no núcleo): parte do "voto Flávio" do 2º turno inclui esses eleitores — o argumento "seu voto não vai pro adversário do Lula" não se aplica a eles; o argumento contra o plano Flávio também não os atinge (eles não votaram no Flávio). Para esses, o argumento é o custo de vida puro + a inexistência de alternativa de centro no 2º turno.
 - As margens do 2º turno dependem também de comparecimento dos indecisos (branco/nulo: 224 no núcleo em 2026) — a meta realista é crossover + comparecimento, não migração total.
