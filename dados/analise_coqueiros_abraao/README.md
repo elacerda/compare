@@ -73,3 +73,19 @@ Dados: arquivos oficiais do TSE (resultados por seção), em
   +11,9 pp), Pântano do Sul (1406 +4,3 pp; 1384 −1,4 pp) e a escola de Abraão
   (2097 −8,0 pp, com 8 das 16 seções próximas do NÚCLEO).
 - Estratégia completa: `../estrategia-flip-coqueiros-abraao.md`.
+
+### Seções 2026 (núcleo) e "flips"
+
+- 2026 1º turno, núcleo (52 seções): **1 seção à esquerda × 51 à direita**
+  (Rosinha Campos/Abraão: 1 L / 11 R; Almirante Carvalhal/Saco da Lama:
+  0 L / 11 R; Pres. Roosevelt: 0 L / 12 R; Igreja N. Sra. do Carmo:
+  0 L / 7 R; CEFID/UDESC: 0 L / 10 R). A única seção de esquerda do núcleo
+  é a 2097/seção 647 (129 × 126, +1,2 pp — empate técnico). Na região
+  completa: 10 L × 78 R. Detalhes em `detalhe_por_secao.csv`.
+- Mesmo local + mesmo número de seção (nenhum flip no núcleo; todos em
+  locais da região):
+  - 2018 2ºT → 2022 2ºT: 3 flips, todos para a esquerda, todos em Pântano
+    do Sul (1384/221, 1384/267 e 1406/339).
+  - 2022 2ºT → 2026 1ºT: 6 flips — 4 para a esquerda (2038/655, 2429/657,
+    1384/222 e 1384/321) e 2 para a direita (1384/221 e 1384/267, as
+    mesmas que tinham virado para a esquerda em 2022).
