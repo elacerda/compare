@@ -6,9 +6,9 @@ dado a Flávio Bolsonaro, nas seções da área Ourofino e suas fronteiras
 (Ribeirão Pires, ABC Paulista, SP — zona 183, 5 locais de votação).
 
 **Base documental (tudo verificado nos textos oficiais, com página):**
-- Flávio (PL) — "Para o Brasil Vencer o Atraso", 76 págs.: `../FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf`
-- Lula (PT) — "Diretrizes para o Programa de Transformação do Brasil", 84 págs.: `../Programa-Governo-LULA-2026.pdf`
-- Dados de votação por seção (TSE): `eleicoes-{2018,2022,2026}/` e metodologia em `analise_ourofino_ribeiraopires/`
+- Flávio (PL) — "Para o Brasil Vencer o Atraso", 76 págs.: `../../FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf`
+- Lula (PT) — "Diretrizes para o Programa de Transformação do Brasil", 84 págs.: `../../Programa-Governo-LULA-2026.pdf`
+- Dados de votação por seção (TSE): `../eleicoes-{2018,2022,2026}/` e metodologia no `README.md` desta pasta
 
 **Fato central da verificação:** em 76 páginas, o plano de Flávio não fala da
 vida de quem mora e trabalha em Ourofino. As palavras "metalúrgico",
@@ -357,7 +357,7 @@ dele."
   R$ 860 bi, p. 50).
 - O TSE não tem campo de bairro: o NÚCLEO (1406) foi definido por
   geocodificação (OSM "Ouro Fino Paulista", relation 3032213) com revisão
-  manual local por local (tabela em `analise_ourofino_ribeiraopires/README.md`);
+  manual local por local (tabela em `README.md`);
   as 4 escolas de fronteira vão para a SENSIBILIDADE, nunca para o núcleo.
   Partes do eleitorado de Ourofino votam em escolas de bairros vizinhos: o
   NÚCLEO é um subconjunto do eleitorado da área, e a EXT é o proxy mais

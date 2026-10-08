@@ -5,8 +5,12 @@ Análise dos votos na corrida presidencial (esquerda × direita) nas seções da
 eleições de **2018** (Haddad × Bolsonaro), **2022** (Lula × Bolsonaro) e
 **2026** (Lula × Flávio Bolsonaro).
 
-Dados: arquivos oficiais do TSE (resultados por seção), baixados em
-`dados/eleicoes-2018/`, `dados/eleicoes-2022/` e `dados/eleicoes-2026/`.
+**Parte da análise conjunta do Norte de Florianópolis** (esta pasta): mesma
+extração de Ingleses (11 locais, 1 execução) — ver `README.md` (visão
+regional), `README-ingleses.md` e `estrategia-flip-norte-floripa.md`.
+
+Dados: arquivos oficiais do TSE (resultados por seção), em
+`../eleicoes-2018/`, `../eleicoes-2022/` e `../eleicoes-2026/`.
 
 > **Rerun 2026-10-08 (pipeline v2 da skill `flip-flavio-lula`)**: todos os
 > números abaixo reproduzidos exatamente (regressão conferida contra os
@@ -167,15 +171,15 @@ Cenários são hipóteses declaradas (migração assumida), não dados.
 - `comparativo_1o_turno.md` — comparação direta dos 1º turnos (2018/2022/
   2026) com detalhamento por candidato. **Artefato histórico** do fluxo
   anterior: o pipeline v2 agrega por grupos (L/R/C/E/N/BN) e não o regenera.
-- `detalhe_por_secao.csv` — 187 linhas, 18 colunas (ano, turno, local, nome,
-  zona, seção, aptos, comparecimento, esquerda, direita, centro, esq3, dir3,
-  branco_nulo, total, margem_esq_pp, esq_sobre_LpR_pct,
-  polarizacao_LpR_sobre_T_pct) — todas as seções do núcleo e do conjunto
-  ampliado nas três eleições.
+- `detalhe_por_secao.csv` — CSV **único da região** (525 linhas, 18 colunas:
+  ano, turno, local, nome, zona, seção, aptos, comparecimento, esquerda,
+  direita, centro, esq3, dir3, branco_nulo, total, margem_esq_pp,
+  esq_sobre_LpR_pct, polarizacao_LpR_sobre_T_pct). Linhas de Rio Vermelho:
+  `local` em 1503/1929/1368/1686/1830 (187 linhas).
 - `config.json`, `config_aptos.json`, `conjuntos.json`, `nomes.json` —
-  configurações exatas da execução de 2026-10-08 (reprodução com
-  03_votos.py + 04_aptos.py + 05_analise.py da skill `flip-flavio-lula`,
-  a partir do repositório).
+  configuração única da execução conjunta de 2026-10-08 (11 locais, 4
+  conjuntos; reprodução com 03_votos.py + 04_aptos.py + 05_analise.py da
+  skill `flip-flavio-lula`, a partir do repositório).
 - Origem bruta: `../eleicoes-2018/`, `../eleicoes-2022/`, `../eleicoes-2026/`
   (arquivos `votacao_secao_*_BR.csv` do TSE; presidente apenas nos arquivos
   `BR`).

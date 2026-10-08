@@ -102,7 +102,7 @@ Pântano do Sul, adjacente a Abraão. 72/76/88 seções em 2018/2022/2026.
 - Bolsões de competitividade em 2026 1T: IFSC Continente (2038 +0,8 pp; 2429
   +11,9 pp), Pântano do Sul (1406 +4,3 pp; 1384 −1,4 pp) e a escola de Abraão
   (2097 −8,0 pp, com 8 das 16 seções próximas do NÚCLEO).
-- Estratégia completa: `../estrategia-flip-coqueiros-abraao.md`.
+- Estratégia completa: `estrategia-flip-coqueiros-abraao.md` (nesta pasta).
 
 ### Seções 2026 (núcleo) e "flips"
 

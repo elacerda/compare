@@ -8,7 +8,7 @@ e **2026 — somente 1º turno** (Lula × Flávio Bolsonaro).
 Dados: arquivos oficiais do TSE (resultados por seção), em
 `../eleicoes-{2018,2022,2026}/`. Detalhe por seção em `detalhe_por_secao.csv`.
 A estratégia de 2º turno derivada desta análise:
-`../estrategia-saojose-centro-fazendamax-praiacomprida.md`.
+`estrategia-saojose-centro-fazendamax-praiacomprida.md` (nesta pasta).
 
 ## Metodologia
 
@@ -239,7 +239,7 @@ pool de comparecimento 5.787 (abstenções 5.088 + BN 699).
   reprodutibilidade (03/04/05)
 - `geocode.tsv` + `geocode.tsv.folha.tsv` — geocodificação + **folha de
   revisão preenchida** (49 locais, status + obs)
-- `../estrategia-saojose-centro-fazendamax-praiacomprida.md` — estratégia
+- `estrategia-saojose-centro-fazendamax-praiacomprida.md` — estratégia
   de 2º turno derivada desta análise
 
 ## Validação (05)

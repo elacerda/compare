@@ -9,14 +9,14 @@ NÚCLEO: 5 locais, 37 seções, 12.962 aptos; EXT/sensibilidade: 6 locais,
 
 **Base documental (tudo verificado nos textos oficiais, com página):**
 - Flávio (PL) — "Para o Brasil Vencer o Atraso", 76 págs. —
-  `FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf`
+  `../../FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf`
   (sha256 `ff60b7ae45083471448af7fa0bf62bbe7ce209a1d21682b3482f142e0cb8b4f0`)
 - Lula (PT) — "Diretrizes para o Programa de Transformação do Brasil",
-  84 págs. — `Programa-Governo-LULA-2026.pdf`
+  84 págs. — `../../Programa-Governo-LULA-2026.pdf`
   (sha256 `75e2dab7b9af27454a5c1a44c3bb0d7e0eaddbd1c355ccf1536f0d0be927e47b`)
-- Dados de votação por seção (TSE 2018/2022/2026) e metodologia:
-  `analise_saojose-centro-fazendamax-praiacomprida/` (README + CSV +
-  configs + folha de revisão).
+- Dados de votação por seção (TSE 2018/2022/2026) e metodologia: esta pasta
+  (README + CSV + configs + folha de revisão); dados brutos em
+  `../eleicoes-{2018,2022,2026}/`.
 
 **Fato central da verificação:** em 76 páginas, o plano de Flávio não
 contém **nenhuma** ocorrência de "farmácia" (contagem exata 0, formas por
@@ -363,7 +363,7 @@ No plano do Lula o número existe: 233 km de trilho, 296 km de corredor,
 - Toda lacuna ("não aparece no plano") tem contagem exata = 0 **e** formas
   por radical "—" no texto extraído inteiro (farmácia, genérico, insulina,
   medicamento, salário mínimo — no plano de Flávio).
-- Dados de seção: `analise_saojose-centro-fazendamax-praiacomprida/detalhe_por_secao.csv`
+- Dados de seção: `detalhe_por_secao.csv`
   (480 linhas) — metodologia, revisão de geocodificação (folha arquivada) e
   validação (T == QT_COMPARECIMENTO OK, 480 seções; aptos ≥ T OK) no README
   da pasta.
@@ -375,7 +375,7 @@ No plano do Lula o número existe: 233 km de trilho, 296 km de corredor,
   O 2º turno = crossover + comparecimento dos indecisos (pool 2.945 no
   NÚCLEO), **não migração total** do voto Flávio.
 - Geocodificação revisada local por local (folha em
-  `analise_saojose-.../geocode.tsv.folha.tsv`); **"Fazenda do Max" ≈
+  `geocode.tsv.folha.tsv`); **"Fazenda do Max" ≈
   "Fazenda Santo Antônio" é inferência declarada** (Wikipedia: terras de
   Max Habitzel); 7 locais sem resultado no OSM foram excluídos (nenhum tem
   seção em 2018/2022/2026 — zero impacto); 1708/1740 são locais novos

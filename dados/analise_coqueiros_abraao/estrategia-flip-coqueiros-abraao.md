@@ -6,9 +6,9 @@ dado a Flávio Bolsonaro, nas seções dos distritos de Coqueiros e Abraão
 (Florianópolis/SC, parte continental).
 
 **Base documental (tudo verificado nos textos oficiais, com página):**
-- Flávio (PL) — "Para o Brasil Vencer o Atraso", 76 págs.: `../FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf`
-- Lula (PT) — "Diretrizes para o Programa de Transformação do Brasil", 84 págs.: `../Programa-Governo-LULA-2026.pdf`
-- Dados de votação por seção (TSE): `eleicoes-{2018,2022,2026}/` e metodologia em `analise_coqueiros_abraao/`
+- Flávio (PL) — "Para o Brasil Vencer o Atraso", 76 págs.: `../../FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf`
+- Lula (PT) — "Diretrizes para o Programa de Transformação do Brasil", 84 págs.: `../../Programa-Governo-LULA-2026.pdf`
+- Dados de votação por seção (TSE): `../eleicoes-{2018,2022,2026}/` e metodologia no `README.md` desta pasta
 
 **Fato central da verificação:** em 76 páginas, o plano de Flávio não fala da
 vida de quem mora em Coqueiros e Abraão. As palavras "condomínio",
@@ -326,7 +326,7 @@ sua vida não está no plano dele."
   juízo sobre a boa-fé do candidato.
 - O TSE não tem campo de bairro: o NÚCLEO foi definido por geocodificação das
   escolas (OSM/Nominatim) com revisão manual de CEP, local por local (tabela em
-  `analise_coqueiros_abraao/README.md`). A CEFID (2054) é inferência de rua
+  `README.md`). A CEFID (2054) é inferência de rua
   (mesma rua da escola 2143 confirmada); o IFSC (2038/2429) está em conflito de
   fronteira (OSM: Estreito; CEP 88080-010) — tratado como REGIÃO (sensibilidade),
   nunca como núcleo.

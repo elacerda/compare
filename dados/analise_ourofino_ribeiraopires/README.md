@@ -119,4 +119,4 @@ norte/noroeste/oeste da área. 33/35/35 seções em 2018/2022/2026 (aptos 2026:
 - Comparecimento 2026 1T: núcleo 1.011/1.290 aptos (78,4%); EXT
   9.740/12.344 (78,9%) — ~2.883 aptos não votaram nos 5 locais, além de 1.817
   brancos/nulos.
-- Estratégia completa: `../estrategia-flip-ourofino-ribeiraopires.md`.
+- Estratégia completa: `estrategia-flip-ourofino-ribeiraopires.md` (nesta pasta).

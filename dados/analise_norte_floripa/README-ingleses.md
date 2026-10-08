@@ -3,7 +3,7 @@
 Análise dos votos na corrida presidencial (esquerda × direita) nas seções do
 bairro **Ingleses**, Florianópolis (SC), para as eleições de **2018**
 (Haddad × Bolsonaro), **2022** (Lula × Bolsonaro) e **2026** (Lula × Flávio
-Bolsonaro). Metodologia idêntica a `../analise_riverio_v/README.md`.
+Bolsonaro). Metodologia idêntica a `README-riverio-v.md` (mesma pasta — análise conjunta do Norte de Florianópolis).
 
 > **Rerun 2026-10-08 (pipeline v2 da skill `flip-flavio-lula`)**: todos os
 > números abaixo reproduzidos exatamente (regressão conferida contra os
@@ -34,8 +34,8 @@ Bolsonaro). Metodologia idêntica a `../analise_riverio_v/README.md`.
    (Rua João Gualberto Soares, 324), 18 seções. A escola-mãe fica no início da
    rodovia João Gualberto Soares, na divisa Ingleses×Muquém/Rio Vermelho; seu
    anexo (`1686`) está em Capivari/Ingleses. **1368 também aparece no conjunto
-   "ext" de `../analise_riverio_v`** — ao somar os dois bairros, contar 1368
-   apenas uma vez.
+   "ext" de Rio Vermelho (`README-riverio-v.md`)** — ao somar os dois bairros,
+   contar 1368 apenas uma vez.
 5. **Excluídos (verificados como fora de Ingleses pelo OSM):** 1244/1252/1538
    ("Ratones", localidade rural da Região Norte da Ilha), 1260/1341/1708/1856
    (continente/Cachoeira do Bom Jesus), 1589 (Sambaqui), 1481 (Itacorubi),
@@ -184,18 +184,19 @@ Cenários são hipóteses declaradas (migração assumida), não dados.
   critério da análise de Rio Vermelho (mesma local + mesmo nº) e podem
   incluir mudança de composição da seção.
 - 1368 é fronteira Ingleses×Rio Vermelho (anexo 1686 = Ingleses/Capivari);
-  evitar double counting ao somar com `../analise_riverio_v`.
+  evitar double counting ao somar com os conjuntos de Rio Vermelho (mesma
+  pasta, `README-riverio-v.md`).
 - Candidatos: 2018 Haddad nº 13 × Bolsonaro nº 17; 2022 Lula 13 × Bolsonaro 22;
   2026 Lula 13 × Flávio Bolsonaro 22.
 
 ## Arquivos
 
-- `detalhe_por_secao.csv` — 469 linhas, 18 colunas (ano, turno, local, nome,
-  zona, seção, aptos, comparecimento, esquerda, direita, centro, esq3, dir3,
-  branco_nulo, total, margem_esq_pp, esq_sobre_LpR_pct,
-  polarizacao_LpR_sobre_T_pct) — todas as seções dos 8 locais nas três
-  eleições.
+- `detalhe_por_secao.csv` — CSV **único da região** (525 linhas, 18 colunas:
+  ano, turno, local, nome, zona, seção, aptos, comparecimento, esquerda,
+  direita, centro, esq3, dir3, branco_nulo, total, margem_esq_pp,
+  esq_sobre_LpR_pct, polarizacao_LpR_sobre_T_pct). Linhas de Ingleses:
+  `local` em 1562/1600/1732/1376/1643/1678/1686/1368 (469 linhas).
 - `config.json`, `config_aptos.json`, `conjuntos.json`, `nomes.json` —
-  configurações exatas da execução de 2026-10-08 (reprodução com
-  03_votos.py + 04_aptos.py + 05_analise.py da skill `flip-flavio-lula`,
-  a partir do repositório).
+  configuração única da execução conjunta de 2026-10-08 (11 locais, 4
+  conjuntos; reprodução com 03_votos.py + 04_aptos.py + 05_analise.py da
+  skill `flip-flavio-lula`, a partir do repositório).

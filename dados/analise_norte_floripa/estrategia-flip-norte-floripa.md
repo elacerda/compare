@@ -4,9 +4,9 @@
 **Objetivo:** converter no 2º turno (25/10/2026) o voto do 1º turno (04/10/2026) dado a Flávio Bolsonaro, nas seções dos distritos de Rio Vermelho e Ingleses (Florianópolis/SC).
 
 **Base documental (tudo verificado nos textos oficiais, com página):**
-- Flávio (PL) — "Para o Brasil Vencer o Atraso", 76 págs., PDF: `../FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf`
-- Lula (PT) — "Diretrizes para o Programa de Transformação do Brasil", 84 págs., PDF: `../Programa-Governo-LULA-2026.pdf`
-- Dados de votação por seção (TSE): `eleicoes-{2018,2022,2026}/` e análise existente em `analise_riverio_v/`
+- Flávio (PL) — "Para o Brasil Vencer o Atraso", 76 págs., PDF: `../../FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf`
+- Lula (PT) — "Diretrizes para o Programa de Transformação do Brasil", 84 págs., PDF: `../../Programa-Governo-LULA-2026.pdf`
+- Dados de votação por seção (TSE): `../eleicoes-{2018,2022,2026}/` e análise completa nesta pasta (`README-riverio-v.md`, `README-ingleses.md`, `detalhe_por_secao.csv`)
 
 **Fato central da verificação:** em 76 páginas, o plano de Flávio não fala da
 vida do norte da Ilha. As palavras "pesca", "artesanato", "salário mínimo",
@@ -35,7 +35,7 @@ capítulos.
   território em que o voto se constrói e se perde, e o 2º turno é a chance de
   virá-lo de volta.
 
-**Ingleses (núcleo: 7 escolas, 93 seções, 34.882 aptos em 2026)** — mapeamento completo em `analise_ingleses/`:
+**Ingleses (núcleo: 7 escolas, 93 seções, 34.882 aptos em 2026)** — mapeamento completo em `README-ingleses.md`:
 
 | Eleição | Turno | L × R (núcleo) | Margem | Share L |
 |---|---|---|---|---|
@@ -48,12 +48,12 @@ capítulos.
 - Ingleses é **mais conservador e mais estável** que Rio Vermelho: melhorou muito de 2018→2022, mas **nunca virou** — perdeu os dois turnos de 2022 e recuou de novo em 2026.
 - **O 2º turno de 2022 foi negativo para a esquerda em Ingleses** (−9,4 → −12,7 pp): diferente de Rio Vermelho, não houve "efeito Lula" de 2º turno ali. O swing de 2026 não vem sozinho; tem que ser construído seção por seção.
 - **Três escolas concentram a conversão possível** (49 seções, juntas −13,2 pp): **1678 EBM Antônio Paschoal (Capivari)** — a única escola que a esquerda **venceu** em 2022 (+1,9 pp); **1686 Anexo Intendente (Capivari, em crescimento: 5→8→15 seções)**; **1732 EBM Herondina Zeferino (Ingleses Centro, a maior: 25 seções, 9.482 aptos)**.
-- **22 seções com |margem| ≤ 10 pp** em 2026 (L 2.561 × R 2.760, margem agregada −3,7 pp): se virassem 55×45, ganho ≈ +790 votos.
-- **14 seções fliparam esquerda→direita entre o 2º turno de 2022 e o 1º de 2026** (zero no sentido inverso) — são as seções-prioridade: 1732 (411, 436, 446, 472, 475, 478, 482), 1686 (310, 438, 447), 1678 (287, 319, 423). Em 2018→2022 o swing tinha sido exatamente esse conjunto (5 flips, todos para a esquerda) — a geografia do swing é a mesma; o 2º turno é a chance de devolvê-la.
+- **22 seções com |margem| ≤ 10 pp** em 2026 (L 2.561 × R 2.760, margem agregada −3,7 pp): se a zona virasse 55×45 (agregado atual 48,1×51,9), ganho ≈ +365 votos.
+- **12 seções fliparam esquerda→direita entre o 2º turno de 2022 e o 1º de 2026** (+2 empates técnicos no sentido direito: 1686/447, 1678/355; zero no sentido inverso) — são as seções-prioridade: 1732 (411, 436, 446, 472, 475, 478, 482), 1686 (310, 438; empate técnico 447), 1678 (287, 319, 423; empate técnico 355). Em 2018→2022 o swing tinha sido exatamente esse conjunto (5 flips, todos para a esquerda) — a geografia do swing é a mesma; o 2º turno é a chance de devolvê-la.
 
-**Matemática regional (Rio Vermelho núcleo + Ingleses núcleo + 1368, contada 1×):** 2026 1ºT, L = 13.081 × R = 18.825 (−5.744). Vencer a região inteira no 2º turno exigiria ~18 pp de swing — fora de alcance. **Objetivo realista do território: +2.000 a 2.500 no diferencial L×R** — composto de: virar o núcleo de Rio Vermelho (+394 a +500), devolver 1678/Capivari à esquerda como em 2022 (+150 a 300), converter a zona das 22 seções próximas em Ingleses (+790 no teto), estancar 1686/1732 (+500 a 800) e comparecimento de indecisos (~8–9 mil aptos não compareceram em 2026).
+**Matemática regional (Rio Vermelho núcleo + Ingleses núcleo + 1368, contada 1×):** 2026 1ºT, L = 13.081 × R = 18.825 (−5.744). Vencer a região inteira no 2º turno exigiria ~18 pp de swing — fora de alcance. **Objetivo realista do território: +2.000 a 2.500 no diferencial L×R** — composto de: virar o núcleo de Rio Vermelho (+394 a +500), devolver 1678/Capivari à esquerda como em 2022 (+150 a +300), converter a zona das 22 seções próximas em Ingleses (+365 no teto), estancar 1686/1732 (+500 a 800) e comparecimento de indecisos (~8–9 mil aptos não compareceram em 2026).
 - **Matemática do 2º turno no núcleo:** Lula está a ~400 votos. Em 2018 o swing de 2º turno da esquerda foi de +338 votos (base +52%) — a magnitude necessária já ocorreu neste bairro.
-- **Seções-prioridade (já calculadas em `analise_riverio_v/`):** as 3 seções que fliparam esquerda→direita entre 2022 e 2026 (1503/408, 1686/310, 1686/438) e as 5 seções onde a esquerda persiste (3 na Muquém, 2 na Darcy) — essas últimas são a semente do boca a boca de "aqui o Lula passou em 2022".
+- **Seções-prioridade (já calculadas em `README-riverio-v.md`):** as 3 seções que fliparam esquerda→direita entre 2022 e 2026 (1503/408, 1686/310, 1686/438) e as 5 seções onde a esquerda persiste (3 na Muquém, 2 na Darcy) — essas últimas são a semente do boca a boca de "aqui o Lula passou em 2022".
 - A escola nova (Darcy Ribeiro, 2.620 aptos, 73,2% de comparecimento) chegou **praticamente empatada (−0,6 pp)** — é o território de maior mobilidade do núcleo.
 - Os terceiros do 1º turno de 2026 puxam à direita (Renan Santos 3,9% + Cury 3,9% + Caiado 1,2% ≈ 9,1% do núcleo): o debate é L×R direto; a argumentação precisa ser cara a cara.
 
@@ -184,7 +184,7 @@ eleitor do norte da Ilha, e o plano a ignora.
 
 - **Janela:** 07/10–25/10. Picos: sábado/domingo manhã (mercado, beira da praia, portinho) e fim de mês (a dor do custo de vida está no máximo).
 - **Núcleo Rio Vermelho:** 5 seções de esquerda (semente de boca a boca "passou aqui em 2022") + 3 seções flip + Darcy Ribeiro (base nova, 2.620 aptos, empate técnico). Meta: +400-500 votos no núcleo.
-- **Ingleses (mapeado — `analise_ingleses/`):** prioridade nas 3 escolas-swing (1678, 1686, 1732) e nas 22 seções com |margem| ≤ 10 pp; as 14 seções flipadas 2022→2026 (1732×7, 1686×3, 1678×3) são o alvo de porta a porta de 1º grau — morador de cada seção falando com os vizinhos da mesma seção. O resto do bairro (1562, 1600, 1376, 1643; margem 20–30 pp) é **manutenção de base + comparecimento**, não conversão.
+- **Ingleses (mapeado — `README-ingleses.md`):** prioridade nas 3 escolas-swing (1678, 1686, 1732) e nas 22 seções com |margem| ≤ 10 pp; as 12 seções flipadas 2022→2026 (1732×7, 1686×2, 1678×3) + 2 empates técnicos (1686/447, 1678/355) são o alvo de porta a porta de 1º grau — morador de cada seção falando com os vizinhos da mesma seção. O resto do bairro (1562, 1600, 1376, 1643; margem 20–30 pp) é **manutenção de base + comparecimento**, não conversão.
 - **Canais por perfil:**
   - Pescadores: conversa no portinho/associação de pescadores, manhã de mar alto (quando o bote não sai — o tempo é deles).
   - Comércio de Ingleses: roda rápida de 10 min na abertura da loja (antes das 9h), 1 cartão impresso A5 por perfil.
@@ -197,7 +197,7 @@ eleitor do norte da Ilha, e o plano a ignora.
 
 ## 7. Limites desta análise
 
-- Citações verificadas nos PDFs oficiais (`../FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf`, `../Programa-Governo-LULA-2026.pdf`); páginas conforme numeração do PDF. A qualificação de "incoerência" é interpretação estratégica do documento, não juízo sobre a boa-fé do candidato.
-- Dados de seção: `analise_riverio_v/detalhe_por_secao.csv` (Rio Vermelho) e `analise_ingleses/detalhe_por_secao.csv` (Ingleses) — metodologia nos READMEs das pastas.
+- Citações verificadas nos PDFs oficiais (`../../FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO.pdf`, `../../Programa-Governo-LULA-2026.pdf`); páginas conforme numeração do PDF. A qualificação de "incoerência" é interpretação estratégica do documento, não juízo sobre a boa-fé do candidato.
+- Dados de seção: `detalhe_por_secao.csv` (525 linhas; Rio Vermelho = local em 1503/1929/1368/1686/1830, Ingleses = 1562/1600/1732/1376/1643/1678/1686/1368) — metodologia em `README-riverio-v.md` e `README-ingleses.md`.
 - O 1º turno de 2026 tem Ruem/Santos, Cury e Caiado puxando à direita (~9% no núcleo): parte do "voto Flávio" do 2º turno inclui esses eleitores — o argumento "seu voto não vai pro adversário do Lula" não se aplica a eles; o argumento contra o plano Flávio também não os atinge (eles não votaram no Flávio). Para esses, o argumento é o custo de vida puro + a inexistência de alternativa de centro no 2º turno.
 - As margens do 2º turno dependem também de comparecimento dos indecisos (branco/nulo: 224 no núcleo em 2026) — a meta realista é crossover + comparecimento, não migração total.
