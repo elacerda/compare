@@ -1,0 +1,11 @@
+{
+  "uf": "SC",
+  "municipios": ["SÃO JOSÉ"],
+  "zonas": ["29"],
+  "locais": ["1066", "1104", "1260", "1422", "1511", "1597", "1619", "1627", "1660", "1708", "1740"],
+  "arquivos": {
+    "2018": "dados/eleicoes-2018/votacao_secao_2018_BR.csv",
+    "2022": "dados/eleicoes-2022/votacao_secao_2022_BR.csv",
+    "2026": "dados/eleicoes-2026/votacao_secao_2026_BR.csv"
+  }
+}

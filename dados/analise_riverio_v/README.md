@@ -8,6 +8,14 @@ eleições de **2018** (Haddad × Bolsonaro), **2022** (Lula × Bolsonaro) e
 Dados: arquivos oficiais do TSE (resultados por seção), baixados em
 `dados/eleicoes-2018/`, `dados/eleicoes-2022/` e `dados/eleicoes-2026/`.
 
+> **Rerun 2026-10-08 (pipeline v2 da skill `flip-flavio-lula`)**: todos os
+> números abaixo reproduzidos exatamente (regressão conferida contra os
+> valores antigos); novas seções — "Decomposição de 'Outros'", "Matemática
+> do 2º turno", "Validação" e flips no mesmo turno. Correção: as seções do
+> núcleo em 2026 1ºT são **5 à esquerda × 15 à direita** (Muquém 3L/10R;
+> Darcy Ribeiro 2L/5R) — a contagem 6×14 anterior era um erro de contagem
+> seção a seção (totais inalterados).
+
 ## Metodologia
 
 1. **Zona eleitoral.** Florianópolis (cód. município 81051) tem zonas 12, 13 e
@@ -31,13 +39,17 @@ Dados: arquivos oficiais do TSE (resultados por seção), baixados em
    variação de sensibilidade, não como parte do bairro.
 5. **Convenções.** L = candidato de esquerda (Haddad 2018; Lula 2022 e 2026);
    R = adversário (Bolsonaro 2018/2022; Flávio Bolsonaro 2026); O = demais
-   candidatos + brancos/nulos. "esq (L+R)/T" = polarização (votos nos dois
-   principais candidatos / total). "Margem" = (L−R)/(L+R), em pontos
+   candidatos + brancos/nulos, decomposto no pipeline v2 em C (centro), E
+   (3º esq.), N (3º dir.) e BN (branco+nulo). "esq (L+R)/T" = polarização
+   (votos nos dois principais candidatos / total). "Margem" = (L−R)/(L+R),
+   em pontos
    percentuais (negativo = direita à frente). 2026 usa apenas o 1º turno
    (segundo turno ainda não realizado na data da coleta).
 6. **Limitação de vinculação.** O número da seção é renumerado a cada eleição;
    seções de eleições diferentes foram casadas pelo `NR_LOCAL_VOTACAO`
-   (escola) + número de seção quando coincidente.
+   (escola) + número de seção quando coincidente (fallback por nome do local;
+   cobertura do match reportada por par de eleições — 2022→2026: 92% por
+   código).
 
 ## Resultados — bairro (núcleo: Muquém + Darcy Ribeiro)
 
@@ -57,9 +69,18 @@ Bolsonaro. 2026: Lula × Flávio Bolsonaro.
 
 | Eleição | Turno | L | R | Outros | Total | esq (L+R)/T | Margem |
 |---------|-------|---:|---:|-------:|------:|------------:|-------:|
+| 2018 | 1º | 1.262 | 4.646 | 3.095 | 9.003 | 65,6% | −57,3 pp |
 | 2018 | 2º | 2.736 | 5.481 | 795 | 9.012 | 91,2% | −33,4 pp |
+| 2022 | 1º | 4.702 | 5.359 | 1.399 | 11.460 | 87,8% | −6,5 pp |
 | 2022 | 2º | 5.021 | 6.056 | 442 | 11.519 | 96,2% | −9,3 pp |
 | 2026 | 1º | 5.418 | 7.297 | 1.908 | 14.623 | 87,0% | −14,8 pp |
+
+### Decomposição de "Outros" — 2026 1º turno
+
+| Conjunto | Centro (C) | 3º esq. (E) | 3º dir. (N) | Branco+Nulo (BN) |
+|---|---:|---:|---:|---:|
+| Núcleo | 555 | 0 | 0 | 224 |
+| Ampliado (sens.) | 1.357 | 0 | 0 | 551 |
 
 ### Por escola (turnos decisivos)
 
@@ -71,14 +92,40 @@ Bolsonaro. 2026: Lula × Flávio Bolsonaro.
 
 ### Seções 2026 (núcleo) e "flips"
 
-- 2026 1º turno, núcleo: **6 seções à esquerda × 14 à direita**
-  (Muquém: 4 L / 9 R; Darcy Ribeiro: 2 L / 5 R). Bairro heterogêneo —
+- 2026 1º turno, núcleo: **5 seções à esquerda × 15 à direita**
+  (Muquém: 3 L / 10 R; Darcy Ribeiro: 2 L / 5 R). Bairro heterogêneo —
   detalhes em `detalhe_por_secao.csv`.
-- Mesmo local + mesmo número de seção:
-  - 2018 2ºT → 2022 2ºT: 2 flips, ambos para a esquerda
-    (1503/seção 408 e 1686/seção 310).
-  - 2022 2ºT → 2026 1ºT: 3 flips, todos para a direita
+- 2026 1ºT (conjunto ampliado): **19 seções com |margem| ≤ 10 pp** (T ≥ 60) —
+  agregado L 2.199 × R 2.309 (−2,4 pp; ±1σ ≈ 6 pp por seção).
+- Mesmo local + mesmo número de seção (cobertura do match 2022→2026: 92% por
+  código):
+  - **mesmo turno, 2022 1ºT → 2026 1ºT: 7 flips, todos para a direita**,
+    zero para a esquerda (1368/395; 1503/224, 339, 408; 1686/310, 431, 438).
+  - 2018 2ºT → 2022 2ºT (mesmo turno): 2 flips, ambos para a esquerda
+    (1503/408 e 1686/310).
+  - 2022 2ºT → 2026 1ºT (cross-turno): 3 flips, todos para a direita
     (1503/408, 1686/310 e 1686/438) + 1 empate técnico (1686/447).
+
+
+## Matemática do 2º turno de 2026 (previsão, por conjunto)
+
+- **Núcleo** (20 seções no T1, 7.402 aptos): comparecimento T1 75,7%;
+  abstenções 1.795; **394 votos para virar** o T1 sem migração. Cenários:
+  base −8,2 pp; centro dividido 2:1 para a direita (C/3, 2C/3) → L 2.402 ×
+  R 2.981 (−10,8 pp); base rate de 2022 (n=9 seções nos 2 turnos) → −12,6 pp;
+  base rate de 2018 (n=6, efeito Haddad) → L 4.674 × R 3.185 (+18,9 pp).
+  Pool de comparecimento (abstenções + BN): 2.019.
+- **Conjunto ampliado (sens.)** (53 seções, 19.503 aptos): comparecimento
+  75,0%; abstenções 4.880; **1.879 votos para virar**. Cenários: base
+  −14,8 pp; centro 2:1 dir. → −16,6 pp; base rate 2022 (n=38) → −17,5 pp;
+  base rate 2018 (n=29) → +15,4 pp. Pool: 5.431.
+
+Cenários são hipóteses declaradas (migração assumida), não dados.
+
+## Validação
+
+- `T == QT_COMPARECIMENTO` nos arquivos do TSE: OK (187 seções conferidas).
+- `aptos >= T`: OK. Nenhuma seção 2026 T1 com T < 60.
 
 ## Interpretação
 
@@ -97,6 +144,10 @@ Bolsonaro. 2026: Lula × Flávio Bolsonaro.
   Ingleses) mantém um perfil consistentemente mais de direita ao longo das
   três eleições (−34,5 / −17,5 / −25,5 pp).
 
+- **Flips no mesmo turno (2022 1ºT → 2026 1ºT): 7 para a direita, zero para
+  a esquerda** (no conjunto ampliado) — o recuo de 2026 não é artefato de
+  "efeito 2º turno".
+
 ## Ressalvas
 
 1. A EBM Darcy Ribeiro só existe em 2026: a composição do "bairro" muda entre
@@ -114,11 +165,17 @@ Bolsonaro. 2026: Lula × Flávio Bolsonaro.
 ## Arquivos
 
 - `comparativo_1o_turno.md` — comparação direta dos 1º turnos (2018/2022/
-  2026): tabelas bairro núcleo e da mesma escola, detalhamento por candidato,
-  leitura e ressalvas.
-- `detalhe_por_secao.csv` — 187 linhas: ano, turno, local, zona, seção, L, R,
-  outros, total e índices (esquerda × direita), para todas as seções do núcleo
-  e do conjunto ampliado nas três eleições.
+  2026) com detalhamento por candidato. **Artefato histórico** do fluxo
+  anterior: o pipeline v2 agrega por grupos (L/R/C/E/N/BN) e não o regenera.
+- `detalhe_por_secao.csv` — 187 linhas, 18 colunas (ano, turno, local, nome,
+  zona, seção, aptos, comparecimento, esquerda, direita, centro, esq3, dir3,
+  branco_nulo, total, margem_esq_pp, esq_sobre_LpR_pct,
+  polarizacao_LpR_sobre_T_pct) — todas as seções do núcleo e do conjunto
+  ampliado nas três eleições.
+- `config.json`, `config_aptos.json`, `conjuntos.json`, `nomes.json` —
+  configurações exatas da execução de 2026-10-08 (reprodução com
+  03_votos.py + 04_aptos.py + 05_analise.py da skill `flip-flavio-lula`,
+  a partir do repositório).
 - Origem bruta: `../eleicoes-2018/`, `../eleicoes-2022/`, `../eleicoes-2026/`
   (arquivos `votacao_secao_*_BR.csv` do TSE; presidente apenas nos arquivos
   `BR`).

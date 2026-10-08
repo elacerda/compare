@@ -1,0 +1,154 @@
+# saojose-centro-fazendamax-praiacomprida — análise de seções (esquerda × direita)
+anos: 2018, 2022, 2026 | linhas: 480 | CSV: dados/analise_saojose-centro-fazendamax-praiacomprida/detalhe_por_secao.csv
+
+## Locais
+1066  EEB Nossa Sra. da Conceição (Roçado, fronteira PC/CH)  2018:26  2022:28  2026:14  aptos_2026:5342  comparec_2026:80.2%
+1104  EBM Veread. Albertina Krummel Maciel (Fazenda do Max)  2018:20  2022:20  2026:10  aptos_2026:3734  comparec_2026:80.9%
+1260  EEB Profª Laurita Dutra de Souza (Picadas do Sul)  2018:26  2022:26  2026:13  aptos_2026:4808  comparec_2026:81.3%
+1422  EEF Profª Marcília de Oliveira (Forquilhinha)  2018:28  2022:28  2026:14  aptos_2026:5360  comparec_2026:83.6%
+1511  Igreja de Santo Antônio (Campinas)  2018:20  2022:20  2026:7  aptos_2026:2463  comparec_2026:81.9%
+1597  IFSC Campus São José (Centro Histórico)  2018:26  2022:28  2026:14  aptos_2026:4415  comparec_2026:82.5%
+1619  CEM Antônio Francisco Machado (Forquilhinha)  2018:20  2022:26  2026:14  aptos_2026:5530  comparec_2026:75.1%
+1627  CEI Santo Antônio (Fazenda do Max)  2018:8  2022:10  2026:6  aptos_2026:2236  comparec_2026:77.9%
+1660  EEB Profª Maria José Barbosa Vieira (Praia Comprida)  2018:6  2022:8  2026:5  aptos_2026:1862  comparec_2026:75.5%
+1708  Faculdade Anhanguera (Praia Comprida)  2018:0  2022:0  2026:2  aptos_2026:715  comparec_2026:81.0%
+1740  Colégio Gardner (Campinas/Kobrasol)  2018:0  2022:0  2026:7  aptos_2026:2571  comparec_2026:83.3%
+
+## Totais por conjunto × (ano, turno)
+conjunto     ano   tur       L       R      C     E     N     BN        T margem_pp share_L% polar%
+NÚCLEO       2018  1       862    5049   1712   107   584    699     9013     -70.8     14.6   65.6
+NÚCLEO       2018  2      2241    5910      0     0     0    755     8906     -45.0     27.5   91.5
+NÚCLEO       2022  1      3309    4956   1034     0     0    403     9702     -19.9     40.0   85.2
+NÚCLEO       2022  2      3566    5720      0     0     0    425     9711     -23.2     38.4   95.6
+NÚCLEO       2026  1      3206    5688   1123     0     0    372    10389     -27.9     36.0   85.6
+EXT          2018  1      1991   11139   3344   209  1118   1447    19248     -69.7     15.2   68.2
+EXT          2018  2      4637   12810      0     0     0   1630    19077     -46.8     26.6   91.5
+EXT          2022  1      6445   10830   2052     0     0    796    20123     -25.4     37.3   85.8
+EXT          2022  2      6987   12445      0     0     0    746    20178     -28.1     36.0   96.3
+EXT          2026  1      6198   12024   2065     0     0    699    20986     -32.0     34.0   86.8
+
+## Tabela de resultados (markdown — copiar para o README da análise)
+### Resultados — NÚCLEO
+
+| Eleição | Turno | Esquerda (L) | Direita (R) | Outros | Total | esq (L+R)/T | Margem (L−R)/(L+R) |
+|---------|-------|-------------:|------------:|-------:|------:|------------:|-------------------:|
+| 2018 | 1º | 862 | 5.049 | 3.102 | 9.013 | 65,6% | **−70,8 pp** |
+| 2018 | 2º | 2.241 | 5.910 | 755 | 8.906 | 91,5% | **−45,0 pp** |
+| 2022 | 1º | 3.309 | 4.956 | 1.437 | 9.702 | 85,2% | **−19,9 pp** |
+| 2022 | 2º | 3.566 | 5.720 | 425 | 9.711 | 95,6% | **−23,2 pp** |
+| 2026 | 1º | 3.206 | 5.688 | 1.495 | 10.389 | 85,6% | **−27,9 pp** |
+
+### Resultados — EXT
+
+| Eleição | Turno | Esquerda (L) | Direita (R) | Outros | Total | esq (L+R)/T | Margem (L−R)/(L+R) |
+|---------|-------|-------------:|------------:|-------:|------:|------------:|-------------------:|
+| 2018 | 1º | 1.991 | 11.139 | 6.118 | 19.248 | 68,2% | −69,7 pp |
+| 2018 | 2º | 4.637 | 12.810 | 1.630 | 19.077 | 91,5% | −46,8 pp |
+| 2022 | 1º | 6.445 | 10.830 | 2.848 | 20.123 | 85,8% | −25,4 pp |
+| 2022 | 2º | 6.987 | 12.445 | 746 | 20.178 | 96,3% | −28,1 pp |
+| 2026 | 1º | 6.198 | 12.024 | 2.764 | 20.986 | 86,8% | −32,0 pp |
+
+### Decomposição de 'Outros' — 2026 T1
+
+| Conjunto | Centro (C) | 3º esq (E) | 3º dir (N) | Branco+Nulo (BN) |
+|---|---:|---:|---:|---:|
+| NÚCLEO | 1.123 | 0 | 0 | 372 |
+| EXT | 2.065 | 0 | 0 | 699 |
+
+
+## Por local (último turno de cada ano)
+1066  2018 T2  L 980 × R 2734  T 4067  margem -47.2 pp  share L 26.4%
+1066  2022 T2  L 1391 × R 2673  T 4242  margem -31.5 pp  share L 34.2%
+1066  2026 T1  L 1167 × R 2510  T 4286  margem -36.5 pp  share L 31.7%
+1104  2018 T2  L 695 × R 2168  T 3130  margem -51.4 pp  share L 24.3%
+1104  2022 T2  L 1056 × R 1987  T 3179  margem -30.6 pp  share L 34.7%
+1104  2026 T1  L 831 × R 1733  T 3020  margem -35.2 pp  share L 32.4%
+1260  2018 T2  L 974 × R 2676  T 4034  margem -46.6 pp  share L 26.7%
+1260  2022 T2  L 1447 × R 2574  T 4173  margem -28.0 pp  share L 36.0%
+1260  2026 T1  L 1137 × R 2264  T 3908  margem -33.1 pp  share L 33.4%
+1422  2018 T2  L 1111 × R 3199  T 4705  margem -48.4 pp  share L 25.8%
+1422  2022 T2  L 1543 × R 2926  T 4639  margem -30.9 pp  share L 34.5%
+1422  2026 T1  L 1226 × R 2709  T 4482  margem -37.7 pp  share L 31.2%
+1511  2018 T2  L 783 × R 2352  T 3374  margem -50.0 pp  share L 25.0%
+1511  2022 T2  L 1078 × R 2126  T 3311  margem -32.7 pp  share L 33.6%
+1511  2026 T1  L 599 × R 1191  T 2016  margem -33.1 pp  share L 33.5%
+1597  2018 T2  L 960 × R 2346  T 3598  margem -41.9 pp  share L 29.0%
+1597  2022 T2  L 1352 × R 2210  T 3729  margem -24.1 pp  share L 38.0%
+1597  2026 T1  L 1101 × R 2025  T 3643  margem -29.6 pp  share L 35.2%
+1619  2018 T2  L 789 × R 1849  T 2897  margem -40.2 pp  share L 29.9%
+1619  2022 T2  L 1528 × R 2146  T 3813  margem -16.8 pp  share L 41.6%
+1619  2026 T1  L 1333 × R 2246  T 4152  margem -25.5 pp  share L 37.2%
+1627  2018 T2  L 310 × R 827  T 1244  margem -45.5 pp  share L 27.3%
+1627  2022 T2  L 605 × R 918  T 1586  margem -20.6 pp  share L 39.7%
+1627  2026 T1  L 529 × R 985  T 1742  margem -30.1 pp  share L 34.9%
+1660  2018 T2  L 276 × R 569  T 934  margem -34.7 pp  share L 32.7%
+1660  2022 T2  L 553 × R 605  T 1217  margem -4.5 pp  share L 47.8%
+1660  2026 T1  L 525 × R 658  T 1405  margem -11.2 pp  share L 44.4%
+1708  2026 T1  L 220 × R 287  T 579  margem -13.2 pp  share L 43.4%
+1740  2026 T1  L 736 × R 1104  T 2142  margem -20.0 pp  share L 40.0%
+
+## 2026 T1 — seções próximas (|margem| ≤ 10 pp, T ≥ 60): 7
+agregado: L 824 × R 892  margem -4.0 pp
+  1740/390  L 125 × R 134  -3.5 pp  T 295  ±6,2 pp (1σ)
+  1708/410  L 122 × R 131  -3.6 pp  T 295  ±6,3 pp (1σ)
+  1619/392  L 123 × R 114  +3.8 pp  T 280  ±6,5 pp (1σ)
+  1660/381  L 107 × R 116  -4.0 pp  T 275  ±6,7 pp (1σ)
+  1740/386  L 129 × R 140  -4.1 pp  T 307  ±6,1 pp (1σ)
+  1660/398  L 108 × R 123  -6.5 pp  T 279  ±6,6 pp (1σ)
+  1627/384  L 110 × R 134  -9.8 pp  T 282  ±6,4 pp (1σ)
+
+## Flips 2018 T1 → 2022 T1 (mesmo turno) — match: 90 por código, 0 só por nome (cobertura 100%)
+estrito (código): E→D 0 []  D→E 1 [1660(371)]
+
+## Flips 2018 T2 → 2022 T2 (mesmo turno) — match: 90 por código, 0 só por nome (cobertura 100%)
+estrito (código): E→D 1 [1619(379)]  D→E 0 []
+
+## Flips 2022 T1 → 2026 T1 (mesmo turno) — match: 94 por código, 0 só por nome (cobertura 97%)
+estrito (código): E→D 4 [1619(385), 1627(384), 1660(371,381)]  D→E 0 []
+(sem match por nome: 3 seções de 2022 T1 sem par em 2026 T1)
+
+## Flips 2022 T2 → 2026 T1 (cross-turno) — match: 94 por código, 0 só por nome (cobertura 97%)
+estrito (código): E→D 3 [1619(385), 1627(384), 1660(381)]  D→E 0 []
+(sem match por nome: 3 seções de 2022 T2 sem par em 2026 T1)
+
+## Share-swing de L por local (último turno de cada ano)
+1066  2018:26.4%  2022:34.2%  2026:31.7% Δ2018→2022:+7.8pp Δ2022→2026:-2.5pp
+1104  2018:24.3%  2022:34.7%  2026:32.4% Δ2018→2022:+10.4pp Δ2022→2026:-2.3pp
+1260  2018:26.7%  2022:36.0%  2026:33.4% Δ2018→2022:+9.3pp Δ2022→2026:-2.6pp
+1422  2018:25.8%  2022:34.5%  2026:31.2% Δ2018→2022:+8.7pp Δ2022→2026:-3.4pp
+1511  2018:25.0%  2022:33.6%  2026:33.5% Δ2018→2022:+8.7pp Δ2022→2026:-0.2pp
+1597  2018:29.0%  2022:38.0%  2026:35.2% Δ2018→2022:+8.9pp Δ2022→2026:-2.7pp
+1619  2018:29.9%  2022:41.6%  2026:37.2% Δ2018→2022:+11.7pp Δ2022→2026:-4.3pp
+1627  2018:27.3%  2022:39.7%  2026:34.9% Δ2018→2022:+12.5pp Δ2022→2026:-4.8pp
+1660  2018:32.7%  2022:47.8%  2026:44.4% Δ2018→2022:+15.1pp Δ2022→2026:-3.4pp
+1708  2018:?  2022:?  2026:43.4%
+1740  2018:?  2022:?  2026:40.0%
+
+## Matemática do 2º turno (2026)
+
+NÚCLEO (37 seções no T1, 12.962 aptos):
+  T1: L 3.206 × R 5.688  | C 1.123 E 0 N 0 BN 372  | T 10.389
+  comparecimento T1: 80.1%  · abstenções 2.573
+  votos p/ virar (T1, sem migração): 2482
+  cenários 2T (previsão):
+    base (sem migração)                    L 3.206 × R 5.688  (−27,9 pp)
+    centro 2:1 p/ direita (C/3, 2C/3)      L 3.580 × R 6.437  (−28,5 pp)
+    base rate 2022 (n=33 seções nos 2 turnos): L×1.08 R×1.15 → L 3.455 × R 6.565  (−31,0 pp)
+    base rate 2018 (n=30 seções nos 2 turnos): L×2.60 R×1.17 → L 8.335 × R 6.658  (+11,2 pp)
+  pool de comparecimento: abstenções 2.573 + BN 372 = 2.945 (candidato a comparecimento)
+
+EXT (69 seções no T1, 26.074 aptos):
+  T1: L 6.198 × R 12.024  | C 2.065 E 0 N 0 BN 699  | T 20.986
+  comparecimento T1: 80.5%  · abstenções 5.088
+  votos p/ virar (T1, sem migração): 5826
+  cenários 2T (previsão):
+    base (sem migração)                    L 6.198 × R 12.024  (−32,0 pp)
+    centro 2:1 p/ direita (C/3, 2C/3)      L 6.886 × R 13.401  (−32,1 pp)
+    base rate 2022 (n=64 seções nos 2 turnos): L×1.08 R×1.15 → L 6.719 × R 13.817  (−34,6 pp)
+    base rate 2018 (n=60 seções nos 2 turnos): L×2.33 R×1.15 → L 14.435 × R 13.828  (+2,1 pp)
+  pool de comparecimento: abstenções 5.088 + BN 699 = 5.787 (candidato a comparecimento)
+
+## Validação
+T == QT_COMPARECIMENTO: OK (480 seções conferidas)
+aptos >= T: OK
+seções com T < 60 no 2026 T1: 0 (excluídas das 'próximas')

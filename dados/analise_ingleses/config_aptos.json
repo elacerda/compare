@@ -1,0 +1,24 @@
+{
+ "uf": "SC",
+ "municipios": [
+  "FLORIANÓPOLIS"
+ ],
+ "zonas": [
+  "100"
+ ],
+ "locais": [
+  "1562",
+  "1600",
+  "1732",
+  "1376",
+  "1643",
+  "1678",
+  "1686",
+  "1368"
+ ],
+ "arquivos": {
+  "2018": "dados/eleicoes-2018/detalhe_votacao_secao_2018_BR.csv",
+  "2022": "dados/eleicoes-2022/detalhe_votacao_secao_2022_BR.csv",
+  "2026": "dados/eleicoes-2026/detalhe_votacao_secao_2026_BR.csv"
+ }
+}
