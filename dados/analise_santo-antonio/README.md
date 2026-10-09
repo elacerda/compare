@@ -68,7 +68,7 @@ Zonas 12/13/14 do município foram verificadas: nenhum local cai na região.
   **N** = 3º de direita (Zema 2026), **BN** = branco+nulo. Ordem de classificação:
   L → R → BN → E → N → C (resto). Convenção registrada em
   `references/tse-data.md` da skill.
-- `detalhe_por_secao.csv` (18 colunas) e `relatorio.txt`: saída do `05_analise.py`.
+- `detalhe_por_secao.csv` (18 colunas): saída do `05_analise.py`.
   `detalhe_marcolino.csv`: sensibilidade 2018.
 
 ### Validação
@@ -78,6 +78,12 @@ Zonas 12/13/14 do município foram verificadas: nenhum local cai na região.
   cargo Presidente): **71/71 linhas OK** (2018: 28, 2022: 26, 2026: 17).
 - `aptos >= T` em todas as seções: OK.
 - Revisão geográfica local por local: tabela acima (revisão manual registrada).
+- Re-execução do pipeline completo a partir da skill instalada
+  (`~/.codex/skills/flip-flavio-lula`, 2026-10-09): `detalhe_por_secao.csv` e
+  `detalhe_marcolino.csv` idênticos byte a byte aos versionados; geocode dos 4
+  locais reconfirmado (1228 e 1589 por query direta — o TSE abrevia os nomes
+  de rua: "Euclides da Cunha" ≠ OSM "Euclides Pires da Cunha"); todas as lacunas
+  "0" das cartas-conceito reconfirmadas sobre `dados/planos/*.txt`.
 
 ## Cartas-conceito (mineração dos planos)
 
@@ -130,5 +136,4 @@ genérica) / C (incoerência interna) / D (lacuna: 0 em todas as variantes).
 | `nomes.json` | nome + zona por local |
 | `detalhe_por_secao.csv` | 18 colunas: ano, turno, local, nome, zona, seção, aptos, comparecimento, esquerda, direita, centro, esq3, dir3, branco_nulo, total, margem_esq_pp, esq_sobre_LpR_pct, polarizacao_LpR_sobre_T_pct |
 | `detalhe_marcolino.csv` | sensibilidade 2018 (1589) |
-| `relatorio.txt` / `relatorio_marcolino.txt` | saída do `05_analise.py` |
 | `estrategia-flip-santo-antonio.md` | estratégia 2º turno (7 seções) |
