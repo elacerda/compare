@@ -1,0 +1,65 @@
+loc	nome	endereco	bairro_osm	decisao	motivo
+1155	UDESC - CENTRO DE ARTES - CEART	AVENIDA MADRE BENVENUTA, 2007	Trindade Norte > Trindade	EXCLUIR	Trindade
+1163	COLEGIO ESTADUAL PROFESSORA LAURA LIMA	RUA DO LOURO, 143	Monte Verde > Saco Grande	EXCLUIR	Monte Verde > Saco Grande
+1163	ESCOLA ESTADUAL BÁSICA PROFESSORA LAURA LIMA	RUA DO LOURO, 143	Monte Verde > Saco Grande	EXCLUIR	Monte Verde > Saco Grande
+1171	SENAI - CTAI	RODOVIA SC 401, 3730	Saco Grande > 	EXCLUIR	Saco Grande Leste (Rod. José Carlos Daux km 3730)
+1180	ESCOLA BASICA JOSÉ DO VALLE PEREIRA	RODOVIA JOAO PAULO, 1268	Saco Grande > 	EXCLUIR	João Paulo > Saco Grande
+1201	SESC - SERVICO SOCIAL DO COMERCIO	RODOVIA HAROLDO SOARES GLAVAN, 1670	Saco Grande Oeste > Saco Grande	EXCLUIR	Saco Grande Oeste (POI 'Hotel Sesc Cacupé')
+1210	ESCOLA BÁSICA MUNICIPAL PAULO FONTES	RUA PROFESSOR OSNI BARBATO, 168	Santo Antônio de Lisboa Oeste > Santo Antônio de Lisboa	EXCLUIR	Santo Antônio de Lisboa Oeste (região analise_santo-antonio)
+1228	N.E.I. - NÚCLEO DE EDUCAÇÃO INFANTIL MARIA SALOMÉ DOS SANTOS	RUA PROFESSOR EUCLIDES DA CUNHA, S/N	sem resultado	EXCLUIR	Sambaqui (região analise_santo-antonio; confirmado em revisão anterior por 'Rua Professor Euclides Pires da Cunha, Sambaqui')
+1244	ESCOLA BASICA MUNICIPAL MANCIO COSTA - ESCOLA DO FUTURO	ESTRADA JOÃO JANUÁRIO DA SILVA S/N	sem resultado	EXCLUIR	Ratones (OSM: Canto da Cachoeira > Ratones)
+1244	ESCOLA BASICA MUNICIPAL MANCIO COSTA - ESCOLA DO FUTUROI	ESTRADA JOÃO JANUÁRIO DA SILVA S/N	sem resultado	EXCLUIR	Ratones (OSM: Canto da Cachoeira > Ratones)
+1244	ESCOLA BASICA MUNICIPAL MANCIO COSTA	ESTRADA INTENDENTE ANTONIO DAMASCO, 3131	Ratones > 88	EXCLUIR	Ratones (mesmo local 1244, endereço antigo 2018; query POI 'Escola Básica Municipal Mâncio Costa' = Rua João Januário da Silva > Canto da Cachoeira > Ratones)
+1252	CRECHE NEIM VICENTINA MARIA DA COSTA LAURINDO	RODOVIA JOSÉ CARLOS DAUX, 16019 (SC 401 KM 15)	Ratones	EXCLUIR	Ratones (Rod. José Carlos Daux)
+1252	IGREJA SÃO BRAS - SALÃO PAROQUIAL (MITRA METROPOLITANA)	RUA MANOEL LEONCIO DE SOUZA BRITO, 549	sem resultado	EXCLUIR	sem resultado; mesmo local 1252 (Ratones no tier por endereço)
+1260	ESCOLA BASICA MUNICIPAL ALBERTINA MADALENA DIAS	RUA CRISTOVAO MACHADO DE CAMPOS, N. 1537	sem resultado	INCLUIR	Vargem Grande (OSM: Vargem Grande > Cachoeira do Bom Jesus; query direta POI confirma, CEP 88052)
+1279	ESCOLA BÁSICA LUIZ CÂNDIDO DA LUZ -  PONTA DO MORRO	RODOVIA SC 403 KM 3, S/N	Cachoeira do Bom Jesus > R	INCLUIR	Vargem do Bom Jesus (OSM: Vargem do Bom Jesus > Cachoeira do Bom Jesus; query direta POI confirma; 'Ponta do Morro')
+1287	ASSOCIAÇÃO DOS ECONOMIÁRIOS FEDERAIS DE SC	RUA ALAMEDA CÉSAR NASCIMENTO, 700	Canasvieiras > Florianóp	EXCLUIR	Jurerê Leste > Jurerê (Jurerê não está na região pedida; no OSM 'Canasvieiras' é bairro guarda-chuva que inclui Jurerê)
+1295	CRECHE MARIA TEREZINHA SARDÁ DA LUZ (ANTIGO N.E.I. PRAIA DO FORTE)	RUA JOSE CARDOSO OLIVEIRA, 3547	Canasvieiras > R	INCLUIR	Canasvieiras (OSM: Praia do Forte > Canasvieiras; o nome da escola contém 'ANTIGO N.E.I. PRAIA DO FORTE')
+1309	ESCOLA BÁSICA JURERÊ (ANTIGA ESCOLA PRAIA DE FORA)	RUA JURERE TRADICIONAL, 230	Jurerê > Canasvieiras	EXCLUIR	Jurerê Leste > Jurerê
+1309	ESCOLA BÁSICA MUNICIPAL PROFESSORA IRACEMA BRITO ANDRADE	RUA JURERE TRADICIONAL, 230	Jurerê > Canasvieiras	EXCLUIR	Jurerê Leste > Jurerê
+1309	ESCOLA DESDOBRADA MUNICIPAL JURERÊ (ANTIGA ESCOLA PRAIA DE FORA)	RUA JURERE TRADICIONAL, 230	Jurerê > Canasvieiras	EXCLUIR	Jurerê Leste > Jurerê
+1317	ESCOLA BASICA MUNICIPAL OSMAR CUNHA	RUA TERTULIANO DE BRITO XAVIER, 661	Rodovia Tertuliano Brito Xavier > Canasvieiras	EXCLUIR	Jurerê (Rod. Tertuliano Brito Xavier; revisão anterior também classificou como Jurerê Leste)
+1325	ESCOLA BÁSICA MUNICIPAL INTENDENTE ARICOMEDES DA SILVA	RODOVIA LEONEL PEREIRA, 930	Cachoeira do Bom Jesus Leste > Cachoeira do Bom Jesus	INCLUIR	Cachoeira do Bom Jesus Leste (OSM: Rua Leonel Pereira (Nelito) > Cachoeira do Bom Jesus Leste > Cachoeira do Bom Jesus)
+1341	ESCOLA BÁSICA MUNICIPAL OSVALDO MACHADO - ESCOLA DO FUTURO	AVENDIDA LUIZ BOITEUX PIAZZA, 5908	sem resultado	EXCLUIR	sem resultado; revisão anterior: continente
+1341	ESCOLA BÁSICA MUNICIPAL OSVALDO MACHADO	RUA LUIZ BOITEUX PIAZZA, 6542	sem resultado	EXCLUIR	sem resultado; revisão anterior: continente
+1368	ESCOLA DE ENSINO BÁSICO INTENDENTE JOSE FERNANDES	RUA JOAO GUALBERTO SOARES, 324	sem resultado	EXCLUIR	Ingleses (região analise_norte_floripa)
+1376	N.E.I. - NUCLEO DE EDUCAÇÃO INFANTIL GENTIL MATHIAS DA SILVA	RUA DOM JOAO BECKER, 988	sem resultado	EXCLUIR	Ingleses (região analise_norte_floripa)
+1384	ESCOLA BASICA MUNICIPAL MARIA CONCEICAO NUNES	RUA LUIZ DUARTE, S/N	sem resultado	EXCLUIR	Ingleses (região analise_norte_floripa; revisão anterior)
+1457	ASSOCIAÇÃO LOTEAMENTO JOÃO GONZAGA COSTA	RUA DA APICULTURA, 139	Saco Grande > 	EXCLUIR	Saco Grande Leste > Saco Grande
+1465	JURERÊ SPORTS CENTER	AVENIDA DOS DOURADOS, 481	Canasvieiras > B	EXCLUIR	Jurerê Oeste > Jurerê
+1473	ESCOLA BÁSICA MUNICIPAL DONICIA MARIA DA COSTA	RODOVIA VIRGILIO VARZEA, S/N	Canasvieiras	EXCLUIR	Saco Grande Leste: POI com número 'Escola Municipal Donícia Maria da Costa, 2507, Rodovia Virgílio Várzea, Saco Grande Leste, CEP 88032'; o tier por nome sem número casou com o segmento 'Canasvieiras' da MESMA rodovia
+1481	ESCOLA DE ENSINO BASICO LEONOR DE BARROS	RUA PASTOR WILLIAM RICHARD SCHISLER FILHO, 80	Trindade > Florianópoli	EXCLUIR	Itacorubi Norte > Trindade
+1503	ESCOLA DE ENSINO BÁSICO DE MUQUEM	RUA MANOEL PETRONILHO DA SILVEIRA, 1	São João do Rio Vermelho > Bra	EXCLUIR	Muquém > Rio Vermelho (região analise_norte_floripa)
+1538	CRECHE NEIM VICENTINA MARIA DA COSTA LAURINDO	RODOVIA JOSÉ CARLOS DAUX, 16019 (SC 401 KM 15)	Ratones	EXCLUIR	Ratones (Rod. Daux km 16019); 'Creche Vargem Pequena' é o NOME da creche, não o bairro
+1538	CRECHE VARGEM PEQUENA	RODOVIA JOSÉ CARLOS DAUX, 16019 (SC 401 KM 15)	Ratones	EXCLUIR	Ratones (Rod. Daux km 16019); 'Creche Vargem Pequena' é o NOME da creche, não o bairro
+1562	COLÉGIO SANTA TEREZINHA	SERVIDAO SAFIRA, N. 148	Ingleses > Ingleses do Rio Vermelho	EXCLUIR	Ingleses Centro > Ingleses (região analise_norte_floripa)
+1589	ESCOLA BÁSICA MARCOLINO JOSE DE LIMA	RODOVIA  ISID DUTRA, 1200	sem resultado	EXCLUIR	Barra do Sambaqui/Sambaqui (região analise_santo-antonio; query direta POI 'Escola Marcolino José de Lima, Rua Isid Dutra, Barra do Sambaqui')
+1589	ESCOLA DESDOBRADA MARCOLINO JOSE DE LIMA	RODOVIA  ISID DUTRA, 1200	sem resultado	EXCLUIR	Barra do Sambaqui/Sambaqui (região analise_santo-antonio; query direta POI 'Escola Marcolino José de Lima, Rua Isid Dutra, Barra do Sambaqui')
+1597	ESCOLA DINAMICA	RUA CRISTOVAO MACHADO DE CAMPOS, 1001	Cachoeira do Bom Jesus > 	INCLUIR	Vargem Grande (OSM: Estrada Cristóvão Machado de Campos > Vargem Grande > Cachoeira do Bom Jesus); escola particular (Escola Dinâmica)
+1600	CENTRO EDUCACIONAL UNIVERSO	SERVIDÃO PROFESSOR NILSON JOSÉ DE JESUS, 91 (SC 403, KM 06)	Ingleses > Ingleses do Rio Vermelho	EXCLUIR	Ingleses Centro (região analise_norte_floripa)
+1627	CRECHE ORLANDINA CORDEIRO	RODOVIA VIRGILIO VARZEA, 380, FONE (48) 3238 0305	Monte Verde > Saco Grande	EXCLUIR	Monte Verde/Saco Grande (km 380, com número, casou em 2018/22 com 'Monte Verde > Saco Grande'; o hit 'Canasvieiras' de 2026 é o segmento sem número da mesma rodovia; Monte Verde não está na região pedida)
+1627	NEIM ORLANDINA CORDEIRO	RODOVIA VIRGILIO VARZEA, 380, FONE (48) 3238 0305	Canasvieiras	EXCLUIR	Monte Verde/Saco Grande (km 380, com número, casou em 2018/22 com 'Monte Verde > Saco Grande'; o hit 'Canasvieiras' de 2026 é o segmento sem número da mesma rodovia; Monte Verde não está na região pedida)
+1643	ESCOLA BASICA MARIA TOMAZIA COELHO	RUA VEREADOR ONILDO LEMOS, 1409	sem resultado	EXCLUIR	Ingleses (região analise_norte_floripa; revisão anterior)
+1660	CONSELHO COMUNITÁRIO PONTAL DO JURERÊ	AVENIDA DAS PALMEIRAS, N. 566	Daniela > Canasvieiras	EXCLUIR	Daniela (área Jurerê)
+1678	E.B.M. ANTÔNIO PASCHOAL APÓSTOLO	RODOVIA JOÃO GUALBERTO SOARES, 6809	Ingleses > Ingleses do Rio Vermelho	EXCLUIR	Capivari > Ingleses (região analise_norte_floripa)
+1678	E.E.M. ANTÔNIO PASCHOAL APÓSTOLO	RODOVIA JOÃO GUALBERTO SOARES, 6809	Ingleses > Ingleses do Rio Vermelho	EXCLUIR	Capivari > Ingleses (região analise_norte_floripa)
+1686	ANEXO DA ESCOLA DE ENSINO BÁSICO INTENDENTE JOSÉ FERNANDES	ESTRADA DÁRIO MANOEL CARDOSO, N1144	Ingleses > Ingleses do Rio Vermelho	EXCLUIR	Capivari > Ingleses (região analise_norte_floripa)
+1686	ANEXO DA ESCOLA DE ENSINO BÁSICO INTENDENTE JOSÉ FERNANDES	SERVIDÃO MANOEL LAUREANO DOS SANTOS, 1144	Ingleses do Rio Vermelho > Bra	EXCLUIR	Capivari > Ingleses (região analise_norte_floripa)
+1708	E.E.M. JACÓ ANDERLE	RUA FRANCISCO FAUSTO MARTINS, S/N	Vargem Grande > Cachoeira do Bom Jesus	INCLUIR	Vargem Grande (OSM: Vargem Grande > Cachoeira do Bom Jesus)
+1724	ESCOLA BÁSICA MUNICIPAL VIRGÍLIO REIS VÁRZEA	RUA MANOEL MANCELLOS MOURA, 100	Canasvieiras	INCLUIR	Canasvieiras (OSM: Canasvieiras)
+1724	ESCOLA BÁSICA MUNICIPAL VIRGÍLIO REIS VÁRZEA	RUA MANOEL MANCELLOS MOURA, S/N	Canasvieiras	INCLUIR	Canasvieiras (OSM: Canasvieiras)
+1732	ESCOLA BÁSICA MUNICIPAL PROFESSORA HERONDINA MEDEIROS ZEFERINO	RUA TRÊS MARIAS, 1072	Ingleses do Rio Vermelho > Florianópoli	EXCLUIR	Ingleses Centro (região analise_norte_floripa)
+1740	UDESC - ESCOLA SUPERIOR DE ADMINISTRAÇÃO E GERÊNCIA - ESAG	AVENIDA MADRE BENVENUTA, 2037	Trindade > S	EXCLUIR	Itacorubi Norte > Trindade
+1776	ESCOLA BASICA MUNICIPAL OSMAR CUNHA	RUA TERTULIANO DE BRITO XAVIER, 661	Rodovia Tertuliano Brito Xavier > Canasvieiras	EXCLUIR	Jurerê (mesma escola/rua do local 1317)
+1830	ANEXO II DA ESCOLA INTENDENTE JOSÉ FERNANDES	RUA INTENDENTE JUÃO NUNES VIEIRA, 636	sem resultado	EXCLUIR	Ingleses (região analise_norte_floripa; revisão anterior)
+1848	CENTRO DE CIÊNCIAS AGRÁRIA DA UNIVERSIDADE FEDERAL DE SANTA CATARINA	RODOVIA ADMAR GONZAGA, 1346	Trindade > Região S	EXCLUIR	Itacorubi Norte > Trindade
+1848	CENTRO DE CIÊNCIAS AGRÁRIA DA UNIVERSIDADE FEDERAL DE SANTA CATRINA	RODOVIA ADMAR GONZAGA, 1346	Trindade > Região S	EXCLUIR	Itacorubi Norte > Trindade
+1856	NEIM VILA UNIÃO	ESTRADA ANAROLINA SILVEIRA SANTOS, S/N (RUA RAMOS, 5 QUADRA E)	Vargem do Bom Jesus > Cachoeira do Bom Jesus	INCLUIR	Vargem do Bom Jesus (OSM: Vargem do Bom Jesus > Cachoeira do Bom Jesus); local novo em 2026 (ausente 2018/2022)
+1864	NEIM JUDITE FERNANDES DE LIMA	RODOVIA JOÃO PAULO, 1268	João Paulo > Saco Grande	EXCLUIR	João Paulo > Saco Grande (mesmo endereço do local 1180; sem acento no TSE 2018/22, com acento em 2026)
+1872	NEIM BARREIRA DO JANGA	RODOVIA VIRGILIO VARZEA, 2507	Saco Grande > Regiã	EXCLUIR	Saco Grande Leste (km 2507 = mesmo prédio da escola Donícia Maria da Costa, local 1473; escola desdobrada em 2026)
+1880	NEIM ALTINO DEALTINO CABRAL	RUA PADRE LOURENÇO RODRIGUES DE ANDRADE, 120	Santo Antônio de Lisboa > 	EXCLUIR	Santo Antônio de Lisboa (região analise_santo-antonio)
+1899	SALÃO PAROQUIAL DA DANIELA	RUA PITANGUEIRAS, 786	Rio Tavares > Campeche	EXCLUIR	Rio Tavares Norte > Rio Tavares > Campeche
+1902	NEIM BARREIRA DO JANGA	RODOVIA VIRGILIO VARZEA, 2507	Saco Grande > Regiã	EXCLUIR	Saco Grande Leste (km 2507 = mesmo prédio da escola Donícia Maria da Costa, local 1473)
+1910	UDESC - CENTRO DE CIÊNCIAS HUMANAS - FAED	AVENIDA MADRE BENVENUTA, 2007	Trindade Norte > Trindade	EXCLUIR	Trindade
+1929	ESCOLA  BÁSICA MUNICIPAL DARCY RIBEIRO	RUA LUIZ DUARTE SOARES, S/N	Rio Vermelho > São João do Rio Vermelho	EXCLUIR	Rio Vermelho Norte > Rio Vermelho (região analise_norte_floripa)
