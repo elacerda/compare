@@ -1,0 +1,9 @@
+{
+  "uf": "SC",
+  "municipios": ["FLORIANÓPOLIS"],
+  "zonas": ["100"],
+  "locais": ["1589"],
+  "arquivos": {
+    "2018": "dados/eleicoes-2018/detalhe_votacao_secao_2018_BR.csv"
+  }
+}
